@@ -45,7 +45,7 @@ def get_chapter_images(chapter_url: str) -> list:
 
     return image_urls
 
-def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
+async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
     logger.info(f"Searching chapter {chapter_number} in {base_url}")
     chapter_url = get_chapter_url(base_url, chapter_number)
 

@@ -53,10 +53,9 @@ COPY . /app
 EXPOSE ${PORT}
 
 # Comando de arranque: Uvicorn puro, 1 worker, loop uvloop y http httptools
-CMD ["uvicorn", "app.main:app", \
-     "--host", "0.0.0.0", \
-     "--port", "7013", \
+CMD ["gunicorn", "app.main:app", \
+     "--bind", "0.0.0.0:7013", \
      "--workers", "1", \
-     "--loop", "uvloop", \
-     "--http", "httptools", \
+     "--worker-class", "uvicorn.workers.UvicornWorker", \
+     "--timeout", "180", \
      "--log-level", "warning"]
