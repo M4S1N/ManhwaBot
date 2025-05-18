@@ -43,7 +43,8 @@
         "options": {
           "response": {
             "response": {
-              "responseFormat": "file"
+              "responseFormat": "file",
+              "download": true
             }
           },
           "timeout": 180000
