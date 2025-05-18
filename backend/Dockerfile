@@ -20,11 +20,10 @@ COPY . .
 
 # Railway inyecta $PORT; por defecto 7013
 ARG PORT=7013
-ENV PORT=${PORT}
 
 # Exponemos el puerto
-EXPOSE ${PORT}
+EXPOSE $PORT
 
 # 3) ENTRYPOINT + CMD en exec‐form para Poetry + Uvicorn
 ENTRYPOINT ["sh","-c"]
-CMD ["poetry run uvicorn app.main:app --host 0.0.0.0 --port $PORT"]
+CMD ["poetry run uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-7013}"]
