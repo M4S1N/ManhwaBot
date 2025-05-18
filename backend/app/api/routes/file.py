@@ -6,50 +6,60 @@ from io import BytesIO
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.utils import ImageReader
+from PIL import Image
 import requests
 
 router = APIRouter()
 
-def images_to_pdf_stream(images):
+def images_to_pdf_stream(images, jpeg_quality: int = 70, max_width: int = int(letter[0])):
     """
-    Generador que crea un PDF donde cada página tiene el ancho fijo de 'letter'
-    y ajusta la altura a la proporción de cada imagen.
+    Generador que crea un PDF donde cada página tiene el ancho fijo de 'letter[0]'
+    y ajusta la altura a la proporción de cada imagen,
+    redimensionando y comprimiendo a JPEG.
     """
-    page_w, _ = letter  # ancho fijo
+    page_w = max_width
 
     buffer = BytesIO()
-    c = canvas.Canvas(buffer, pagesize=(page_w, letter[1]))  # altura inicial no importa
+    c = canvas.Canvas(buffer, pagesize=letter)
 
     for img in images:
-        # 1) URL → bytes
+        # — Obtener bytes de la imagen —
         if isinstance(img, str):
-            resp = requests.get(img)
+            resp = requests.get(img, timeout=30)
+            resp.raise_for_status()
             img_data = resp.content
-        # 2) bytes/bytearray
         elif isinstance(img, (bytes, bytearray)):
             img_data = img
-        # 3) PIL Image u otro → bytes
         else:
+            # Ya es PIL.Image
             bio = BytesIO()
             img.save(bio, format="PNG")
             img_data = bio.getvalue()
 
-        # crea ImageReader y lee tamaño original
-        reader = ImageReader(BytesIO(img_data))
-        img_w, img_h = reader.getSize()
+        # — Abrir con PIL, redimensionar proporcionalmente al ancho máximo —
+        pil = Image.open(BytesIO(img_data))
+        pil = pil.convert("RGB")  # JPEG sólo RGB
+        w, h = pil.size
+        if w > page_w:
+            new_h = int(page_w * h / w)
+            pil = pil.resize((page_w, new_h), Image.LANCZOS)
+            w, h = pil.size
 
-        # calculamos altura manteniendo aspect ratio con ancho fijo
+        # — Volcar a JPEG comprimido en memoria —
+        out = BytesIO()
+        pil.save(out, format="JPEG", quality=jpeg_quality, optimize=True)
+        jpeg_bytes = out.getvalue()
+        out.close()
+
+        # — Insertar en PDF manteniendo proporción —
+        reader = ImageReader(BytesIO(jpeg_bytes))
         draw_w = page_w
-        draw_h = (img_h / img_w) * draw_w
-
-        # ajustamos el tamaño de la página antes de dibujar
-        c.setPageSize((page_w, draw_h))
-
-        # dibujamos la imagen ocupando todo el ancho y la altura calculada
+        draw_h = h * (page_w / w)
+        c.setPageSize((draw_w, draw_h))
         c.drawImage(reader, 0, 0, width=draw_w, height=draw_h)
         c.showPage()
 
-        # emitimos chunk parcial
+        # — Emitir chunk parcial —
         c.saveState()
         buffer.seek(0)
         chunk = buffer.read()
@@ -58,13 +68,12 @@ def images_to_pdf_stream(images):
         buffer.truncate(0)
         buffer.seek(0)
 
-    # finalizamos PDF
+    # — Finaliza PDF completo —
     c.save()
     buffer.seek(0)
-    remaining = buffer.read()
-    if remaining:
-        yield remaining
-
+    remainder = buffer.read()
+    if remainder:
+        yield remainder
 
 @router.get("/file", status_code=status.HTTP_200_OK)
 async def file(
@@ -76,13 +85,13 @@ async def file(
         images = await scrape_chapter_images(url, cap)
         if not images:
             logger.warning(f"No images found for chapter {cap} in {url}")
-            return Response(content="No images found", status_code=status.HTTP_404_NOT_FOUND)
+            return Response("No images found", status_code=status.HTTP_404_NOT_FOUND)
 
         filename = f"chapter_{cap}.pdf"
         logger.info(f"Streaming PDF with {len(images)} pages")
 
         return StreamingResponse(
-            images_to_pdf_stream(images),
+            images_to_pdf_stream(images, jpeg_quality=70, max_width=int(letter[0])),
             media_type="application/pdf",
             headers={
                 "Content-Disposition": f"attachment; filename={filename}"
@@ -91,4 +100,4 @@ async def file(
 
     except Exception as e:
         logger.error(f"Error processing chapter {cap} from {url}: {e}", exc_info=True)
-        return Response(content="Internal server error", status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        return Response("Internal server error", status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
