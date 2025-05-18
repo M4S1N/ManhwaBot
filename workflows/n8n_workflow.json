@@ -26,7 +26,7 @@
     },
     {
       "parameters": {
-        "url": "=http://manhwa-bot-backend:7013/file",
+        "url": "=manhwabot.railway.internal/file",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
