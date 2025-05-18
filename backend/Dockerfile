@@ -18,9 +18,6 @@ RUN apt-get update \
 # 2) Copiamos el resto del código
 COPY . .
 
-# Railway inyecta $PORT; por defecto 7013
-ARG PORT=7013
-
 # Exponemos el puerto
 EXPOSE $PORT
 
