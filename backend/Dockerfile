@@ -1,30 +1,30 @@
-# Use a slim version of Python 3.11
+# Dockerfile
 FROM python:3.11-slim
 
-# Set the working directory to /app
-WORKDIR /app 
+WORKDIR /app
 
-# Copy the dependency files to the container at /app
+# 1) Copiamos solo las deps para cachear
 COPY poetry.lock pyproject.toml /app/
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends gcc libpq-dev curl && \
-    rm -rf /var/lib/apt/lists/*
-RUN pip install --no-cache-dir poetry
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends gcc libpq-dev curl \
+ && rm -rf /var/lib/apt/lists/* \
+ && pip install --no-cache-dir poetry \
+ # instalamos uvicorn en el entorno de Poetry
+ && poetry add uvicorn gunicorn \
+ && poetry config virtualenvs.create false \
+ && poetry install --no-interaction --without dev
 
-# Install the application dependencies
-RUN poetry install --no-interaction --without dev
-
-# Copy the rest of the application code to the container at /app
+# 2) Copiamos el resto del código
 COPY . .
 
-# Railway injects the $PORT variable, so
-# we set it to 7013 (your local port) by default
+# Railway inyecta $PORT; por defecto 7013
 ARG PORT=7013
 ENV PORT=${PORT}
 
-# Expose the port the app runs on
+# Exponemos el puerto
 EXPOSE ${PORT}
 
-# This command starts the FastAPI application using Uvicorn, binding to all interfaces on port 7013 and enabling auto-reload for development.
-CMD ["poetry", "run", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT}"]
+# 3) ENTRYPOINT + CMD en exec‐form para Poetry + Uvicorn
+ENTRYPOINT ["sh","-c"]
+CMD ["poetry run uvicorn app.main:app --host 0.0.0.0 --port $PORT"]
