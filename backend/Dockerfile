@@ -25,7 +25,7 @@ ENV PATH="$POETRY_HOME/bin:$PATH"
 
 # Copiamos los manifests de deps y los instalamos (sin dev)
 COPY pyproject.toml poetry.lock /app/
-RUN poetry install --no-dev --no-interaction
+RUN poetry install --no-interaction --without dev
 
 ############################################
 # 2) Runtime: imagen liviana con solo lo necesario
