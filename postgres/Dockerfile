@@ -1,0 +1,7 @@
+FROM postgres:13-alpine
+
+ENV POSTGRES_USER=n8n_user
+ENV POSTGRES_PASSWORD=n8n_password
+ENV POSTGRES_DB=n8n_db
+
+EXPOSE 5432

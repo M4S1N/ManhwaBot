@@ -1,0 +1,45 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: manhwa-bot-backend
+    ports:
+      - "8000:7013"
+    volumes:
+      - ./backend:/app
+    networks:
+      - internal
+
+  n8n:
+    build:
+      context: ./workflows
+    container_name: manhwa-bot-n8n
+    ports:
+      - "5678:5678"
+    depends_on:
+      - postgres
+    environment:
+      - WEBHOOK_URL=${WEBHOOK_URL}
+    volumes:
+      - n8n_data:/home/node/.n8n
+    networks:
+      - internal
+
+  postgres:
+    build:
+      context: ./postgres
+    container_name: manhwa-bot-postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - internal
+
+volumes:
+  n8n_data:
+  postgres_data:
+      
+networks:
+  internal:
+    driver: bridge

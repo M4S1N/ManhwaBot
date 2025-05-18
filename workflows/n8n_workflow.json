@@ -1,0 +1,150 @@
+{
+  "name": "Manhwa Bot Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -1320,
+        560
+      ],
+      "id": "9a218330-b7ef-4487-8045-ef2c0fafc999",
+      "name": "Telegram Trigger",
+      "webhookId": "4f3feb26-799c-42b3-983d-e2adf71951b3",
+      "credentials": {
+        "telegramApi": {
+          "id": "unique-id-for-telegram",
+          "name": "Manhwa Bot Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "=http://manhwa-bot-backend:7013/file",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "url",
+              "value": "https://taurusmanga.com/manga/subiendo-de-nivel-10-000-anos-en-el-futuro/"
+            },
+            {
+              "name": "cap",
+              "value": "={{ $json.message.text }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1100,
+        560
+      ],
+      "id": "17b1be93-a942-4939-b292-4103531e20d4",
+      "name": "HTTP Request2",
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
+        "text": "=Lo siento pero el capitulo {{ $json.message.text }} no está disponible en estos momentos",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        -840,
+        700
+      ],
+      "id": "582e7659-13e2-465f-8ede-65ff2c0fb79d",
+      "name": "There is no file",
+      "webhookId": "6f487228-6d9a-4b15-aafc-dde3810deafd",
+      "credentials": {
+        "telegramApi": {
+          "id": "unique-id-for-telegram",
+          "name": "Manhwa Bot Token"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "sendDocument",
+        "chatId": "={{ $json.message.chat.id }}",
+        "binaryData": true,
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        -840,
+        440
+      ],
+      "id": "6afa9f2b-1bdd-4c7c-9958-12af1addac2d",
+      "name": "Send PDF",
+      "webhookId": "d17fedcd-f72a-4f9a-a666-16155db8d46a",
+      "credentials": {
+        "telegramApi": {
+          "id": "unique-id-for-telegram",
+          "name": "Manhwa Bot Token"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request2": {
+      "main": [
+        [
+          {
+            "node": "Send PDF",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "There is no file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "74293338-e82c-4958-a3ff-3d713800d20e",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b261dbc6a2ff264e16fe7a3c5f628b97e275628b91a9116c92d73103af9b9b64"
+  },
+  "id": "eca1GMRSKykhf4P1",
+  "tags": []
+}
