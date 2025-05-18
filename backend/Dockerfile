@@ -26,4 +26,4 @@ EXPOSE 7013
 
 # arrancar con Gunicorn+UvicornWorker, escuchando en la variable $PORT
 ENTRYPOINT ["sh", "-c"]
-CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "${PORT:-7013}", "--workers", "1"]
+CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "${PORT:-7013}"]
