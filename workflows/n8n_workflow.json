@@ -26,7 +26,7 @@
     },
     {
       "parameters": {
-        "url": "=manhwabot.railway.internal/file",
+        "url": "=https://manhwabot-agent-production.up.railway.app/file",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
