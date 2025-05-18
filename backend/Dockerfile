@@ -1,31 +1,62 @@
-# Dockerfile
-FROM python:3.11-slim
+# syntax=docker/dockerfile:1
+############################################
+# 1) Builder: instala deps via Poetry
+############################################
+FROM python:3.11-slim AS builder
+
+# Variables de entorno para Poetry y pycache limpio
+ENV PYTHONUNBUFFERED=1 \
+    POETRY_HOME="/opt/poetry" \
+    POETRY_VIRTUALENVS_CREATE=false \
+    POETRY_NO_INTERACTION=1
 
 WORKDIR /app
 
-# copiar deps para cachear
-COPY poetry.lock pyproject.toml /app/
-
+# Instalamos compiladores necesarios, curl para Poetry y limpiamos caches de apt
 RUN apt-get update \
- && apt-get install -y --no-install-recommends gcc libpq-dev curl \
- && rm -rf /var/lib/apt/lists/* \
- && pip install --no-cache-dir poetry \
- && poetry config virtualenvs.create false \
- && poetry install --no-interaction --without dev
+ && apt-get install -y --no-install-recommends build-essential curl \
+ && rm -rf /var/lib/apt/lists/*
 
-# copiar el código
-COPY . .
+# Instalamos Poetry
+RUN curl -sSL https://install.python-poetry.org | python3 -
 
-# definimos un puerto por defecto, que Railway sobreescribirá en tiempo de ejecución
-ENV PORT=7013
+# Ponemos Poetry en el PATH
+ENV PATH="$POETRY_HOME/bin:$PATH"
 
-# en producción es mejor usar Gunicorn con el worker de Uvicorn
-RUN poetry add gunicorn uvicorn
+# Copiamos los manifests de deps y los instalamos (sin dev)
+COPY pyproject.toml poetry.lock /app/
+RUN poetry install --no-dev --no-interaction
 
-EXPOSE 7013
+############################################
+# 2) Runtime: imagen liviana con solo lo necesario
+############################################
+FROM python:3.11-slim
 
-# arrancar con Gunicorn+UvicornWorker, escuchando en la variable $PORT
-CMD ["sh", "-c", "exec gunicorn app.main:app \
-    --bind 0.0.0.0:${PORT} \
-    --workers 1 \
-    --worker-class uvicorn.workers.UvicornWorker"]
+ENV PYTHONUNBUFFERED=1 \
+    PORT=7013
+
+WORKDIR /app
+
+# Solo certs y limpieza de apt
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+# Copiamos el entorno de Python desde builder
+COPY --from=builder /usr/local/lib/python3.11 /usr/local/lib/python3.11
+COPY --from=builder /usr/local/bin /usr/local/bin
+
+# Copiamos el código de la aplicación
+COPY . /app
+
+# Exponemos el puerto que Railway inyecta en $PORT
+EXPOSE ${PORT}
+
+# Comando de arranque: Uvicorn puro, 1 worker, loop uvloop y http httptools
+CMD ["uvicorn", "app.main:app", \
+     "--host", "0.0.0.0", \
+     "--port", "7013", \
+     "--workers", "1", \
+     "--loop", "uvloop", \
+     "--http", "httptools", \
+     "--log-level", "warning"]
