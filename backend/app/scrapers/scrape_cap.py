@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from app.core.logger import logger
 import re
+import os
+from urllib.parse import urlparse, unquote
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
@@ -45,29 +47,53 @@ def get_chapter_images(chapter_url: str) -> list:
 
     return image_urls
 
-async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
+async def scrape_chapter_images(
+    base_url: str,
+    chapter_number: int,
+    download_dir: str = None
+) -> list:
+    """
+    Si `download_dir` no es None, guarda cada imagen en disco bajo ese
+    directorio y devuelve la lista de rutas de archivo.
+    Si `download_dir` es None, se comporta como antes y devuelve bytes.
+    """
     logger.info(f"Searching chapter {chapter_number} in {base_url}")
     chapter_url = get_chapter_url(base_url, chapter_number)
-
     if not chapter_url:
         return []
-    
+
     logger.info(f"Chapter URL: {chapter_url}")
-    images = get_chapter_images(chapter_url)
+    image_urls = get_chapter_images(chapter_url)
+    logger.info(f"Found {len(image_urls)} images in chapter {chapter_number}")
 
-    logger.info(f"Found {len(images)} images in chapter {chapter_number}")
+    # Crea el directorio si hace falta
+    if download_dir:
+        os.makedirs(download_dir, exist_ok=True)
 
-    image_data = []
-    for idx, url in enumerate(images, start=1):
+    result = []
+    for idx, url in enumerate(image_urls, start=1):
         try:
             logger.debug(f"Downloading image {idx}: {url}")
-            response = requests.get(url)
-            response.raise_for_status()
-            image_data.append(response.content)
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            content = resp.content
+
+            if download_dir:
+                # Extrae extensión desde la URL, default a .jpg
+                path = urlparse(url).path
+                ext = os.path.splitext(unquote(path))[1] or ".jpg"
+                filename = f"{chapter_number}_{idx}{ext}"
+                out_path = os.path.join(download_dir, filename)
+                with open(out_path, "wb") as f:
+                    f.write(content)
+                result.append(out_path)
+            else:
+                result.append(content)
+
         except requests.RequestException as e:
             logger.error(f"Error downloading image {idx} from {url}: {e}")
 
-    return image_data
+    return result
 
 # Usage example
 if __name__ == "__main__":
