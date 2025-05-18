@@ -27,4 +27,4 @@ ENV PORT=${PORT}
 EXPOSE ${PORT}
 
 # This command starts the FastAPI application using Uvicorn, binding to all interfaces on port 7013 and enabling auto-reload for development.
-CMD ["poetry", "run", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT} --reload"]
+CMD ["poetry", "run", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT}"]
