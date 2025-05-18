@@ -26,7 +26,7 @@
     },
     {
       "parameters": {
-        "url": "=https://manhwabot-agent-production.up.railway.app/file",
+        "url": "=https://manhwabot-backend-production.up.railway.app/file",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
@@ -43,8 +43,7 @@
         "options": {
           "response": {
             "response": {
-              "responseFormat": "file",
-              "download": true
+              "responseFormat": "file"
             }
           },
           "timeout": 180000
