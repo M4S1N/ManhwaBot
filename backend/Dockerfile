@@ -18,8 +18,13 @@ RUN poetry install --no-interaction --without dev
 # Copy the rest of the application code to the container at /app
 COPY . .
 
+# Railway injects the $PORT variable, so
+# we set it to 7013 (your local port) by default
+ARG PORT=7013
+ENV PORT=${PORT}
+
 # Expose the port the app runs on
-EXPOSE 7013 
+EXPOSE ${PORT}
 
 # This command starts the FastAPI application using Uvicorn, binding to all interfaces on port 7013 and enabling auto-reload for development.
-CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7013", "--reload"]
+CMD ["poetry", "run", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT} --reload"]
