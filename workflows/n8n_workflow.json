@@ -26,7 +26,7 @@
     },
     {
       "parameters": {
-        "url": "=https://manhwabot-backend-production.up.railway.app/file",
+        "url": "=https://manhwabot-backend.onrender.com/file",
         "sendQuery": true,
         "queryParameters": {
           "parameters": [
