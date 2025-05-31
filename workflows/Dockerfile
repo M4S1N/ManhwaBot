@@ -15,7 +15,7 @@ ENV N8N_ENCRYPTION_KEY=CpEMNDGDE9cRi8KP1mM0rkDLBIyAUPH3
 ENV WEBHOOK_URL=https://manhwabot-agent.onrender.com
 
 ENV DB_TYPE=postgresdb
-ENV DB_POSTGRESDB_HOST=https://manhwabot-postgres.onrender.com
+ENV DB_POSTGRESDB_HOST=manhwabot-postgres.onrender.com
 ENV DB_POSTGRESDB_PORT=5432
 ENV DB_POSTGRESDB_USER=n8n_user
 ENV DB_POSTGRESDB_PASSWORD=n8n_password
