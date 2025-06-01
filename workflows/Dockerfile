@@ -14,12 +14,12 @@ ENV N8N_LOG_LEVEL=debug
 ENV N8N_ENCRYPTION_KEY=CpEMNDGDE9cRi8KP1mM0rkDLBIyAUPH3
 ENV WEBHOOK_URL=https://manhwabot-agent.onrender.com
 
-ENV DB_TYPE=postgresdb
-ENV DB_POSTGRESDB_HOST=manhwabot-postgres.onrender.com
-ENV DB_POSTGRESDB_PORT=5432
-ENV DB_POSTGRESDB_USER=n8n_user
-ENV DB_POSTGRESDB_PASSWORD=n8n_password
-ENV DB_POSTGRESDB_DATABASE=n8n_db
+# ENV DB_TYPE=postgresdb
+# ENV DB_POSTGRESDB_HOST=manhwabot-postgres.onrender.com
+# ENV DB_POSTGRESDB_PORT=5432
+# ENV DB_POSTGRESDB_USER=n8n_user
+# ENV DB_POSTGRESDB_PASSWORD=n8n_password
+# ENV DB_POSTGRESDB_DATABASE=n8n_db
 
 # Copy the credentials file to the container
 COPY ./n8n_credentials.json /workflows/n8n_credentials.json
