@@ -3,6 +3,7 @@ from app.core.config import settings
 from app.core.logger import logger
 from app.core.middleware import catch_exceptions_middleware
 from app.core.rate_limiter import limiter
+from app.services import telegram_bot
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, BackgroundTasks
 
@@ -11,6 +12,7 @@ app = FastAPI(title=settings.app_name, debug=settings.debug)
 @app.on_event("startup")
 async def startup_event():
     logger.info("🚀 App starting...")
+    telegram_bot.start_bot()
 
 @app.on_event("shutdown")
 async def shutdown_event():

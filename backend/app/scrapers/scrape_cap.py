@@ -77,7 +77,7 @@ async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
                 pil.size
             
             buf = BytesIO()
-            pil.save(buf, format="JPEG", quality=70, optimize=True)
+            pil.save(buf, format="JPEG", quality=90, optimize=True)
             buf.seek(0)
             image_data.append(buf.getvalue())
             buf.close()
