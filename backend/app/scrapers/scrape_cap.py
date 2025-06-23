@@ -48,7 +48,7 @@ def get_chapter_images(chapter_url: str) -> list:
 
     return image_urls
 
-async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
+async def scrape_chapter_images(base_url: str, chapter_number: int, whit_progress_bar = False, telegram_msg = None) -> list:
     logger.info(f"Searching chapter {chapter_number} in {base_url}")
     chapter_url = get_chapter_url(base_url, chapter_number)
 
@@ -59,7 +59,7 @@ async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
     images = get_chapter_images(chapter_url)
 
     logger.info(f"Found {len(images)} images in chapter {chapter_number}")
-
+    total = len(images)
     image_data = []
     for idx, url in enumerate(images, start=1):
         try:
@@ -81,6 +81,16 @@ async def scrape_chapter_images(base_url: str, chapter_number: int) -> list:
             buf.seek(0)
             image_data.append(buf.getvalue())
             buf.close()
+
+            if whit_progress_bar and telegram_msg is not None:
+                # Actualizar barra de progreso en Telegram
+                progress = int(idx / total * 100)
+                bar = "█" * (progress // 10) + "░" * (10 - (progress // 10))
+                await telegram_msg.edit_text(
+                    text=f"⬇️ <b>Descargando contenido...</b>\n[{bar}] {progress}%",
+                    parse_mode="HTML"
+                )
+            
         except requests.RequestException as e:
             logger.error(f"Error downloading image {idx} from {url}: {e}")
 
