@@ -25,7 +25,7 @@ def get_chapter_url(base_url: str, chapter_number: int) -> str:
 
     for link in chapter_items:
         text = link.text.strip()
-        match = re.search(r'cap[ií]tulo[\s#-]*([0-9]+(?:\.[0-9]+)?)', text, re.IGNORECASE)
+        match = re.search(r'cap[ií]tulo[\s#-]*([0-9]+)', text, re.IGNORECASE)
         if match:
             number = int(match.group(1))
             if number == chapter_number:
