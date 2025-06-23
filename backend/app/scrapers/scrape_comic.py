@@ -13,7 +13,7 @@ def get_chapters_for_comic(comic: ChapterModel) -> list[ChapterModel]:
     chapters = []
     for link in soup.select("li.wp-manga-chapter a"):
         text = link.text.strip()
-        match = re.search(r'cap[ií]tulo[\s#-]*([0-9]+)', text, re.IGNORECASE)
+        match = re.search(r'cap[ií]tulo[\s#-]*([0-9]+)(?!\.\d)', text, re.IGNORECASE)
         if match:
             number = int(match.group(1))
             chapter = ChapterModel(
