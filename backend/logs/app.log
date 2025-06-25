@@ -19209,3 +19209,930 @@ image
 2025-06-22 22:12:00.031 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 213 in https://taurusmanga.com/manga/subiendo-de-nivel-10-000-anos-en-el-futuro/
 2025-06-22 22:12:01.689 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/subiendo-de-nivel-10-000-anos-en-el-futuro/capitulo-213/
 2025-06-22 22:12:02.272 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 40 images in chapter 213
+2025-06-22 22:13:28.525 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-22 22:13:28.525 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-22 22:14:02.646 | INFO     | app.services.telegram_bot:start:52 - /start command received from FatiAilen
+2025-06-22 22:14:02.647 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-22 22:14:12.616 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|Subiendo de Nivel 10 000 años en el futuro from FatiAilen
+2025-06-22 22:14:12.893 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-22 22:14:12.893 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: Subiendo de Nivel 10 000 años en el futuro
+2025-06-22 22:14:12.893 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: Subiendo de Nivel 10 000 años en el futuro
+2025-06-22 22:14:14.629 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 230 (number: 230)
+2025-06-22 22:14:14.629 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 229 (number: 229)
+2025-06-22 22:14:14.630 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 228 (number: 228)
+2025-06-22 22:14:14.630 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 227 (number: 227)
+2025-06-22 22:14:14.631 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 226 (number: 226)
+2025-06-22 22:14:14.631 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 225 (number: 225)
+2025-06-22 22:14:14.632 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 224 (number: 224)
+2025-06-22 22:14:14.634 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 223 (number: 223)
+2025-06-22 22:14:14.634 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 222 (number: 222)
+2025-06-22 22:14:14.635 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 221 (number: 221)
+2025-06-22 22:14:14.635 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 220 (number: 220)
+2025-06-22 22:14:14.635 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 219 (number: 219)
+2025-06-22 22:14:14.636 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 218 (number: 218)
+2025-06-22 22:14:14.636 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 217 (number: 217)
+2025-06-22 22:14:14.636 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 216 (number: 216)
+2025-06-22 22:14:14.637 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 215 (number: 215)
+2025-06-22 22:14:14.637 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 214 (number: 214)
+2025-06-22 22:14:14.637 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 213 (number: 213)
+2025-06-22 22:14:14.638 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 212 (number: 212)
+2025-06-22 22:14:14.638 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 211 (number: 211)
+2025-06-22 22:14:14.639 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 210 (number: 210)
+2025-06-22 22:14:14.639 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 209 (number: 209)
+2025-06-22 22:14:14.640 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 208 (number: 208)
+2025-06-22 22:14:14.640 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 207 (number: 207)
+2025-06-22 22:14:14.640 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 206 (number: 206)
+2025-06-22 22:14:14.641 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 205 (number: 205)
+2025-06-22 22:14:14.641 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 204 (number: 204)
+2025-06-22 22:14:14.642 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 203 (number: 203)
+2025-06-22 22:14:14.642 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 202.05 (number: 202)
+2025-06-22 22:14:14.642 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 202 (number: 202)
+2025-06-22 22:14:14.643 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 201 (number: 201)
+2025-06-22 22:14:14.644 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 200 (number: 200)
+2025-06-22 22:14:14.644 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 199 (number: 199)
+2025-06-22 22:14:14.644 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 198 (number: 198)
+2025-06-22 22:14:14.645 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 197 (number: 197)
+2025-06-22 22:14:14.645 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 196 (number: 196)
+2025-06-22 22:14:14.646 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 195 (number: 195)
+2025-06-22 22:14:14.646 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 194 (number: 194)
+2025-06-22 22:14:14.646 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 193 (number: 193)
+2025-06-22 22:14:14.646 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 192 (number: 192)
+2025-06-22 22:14:14.647 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 191 (number: 191)
+2025-06-22 22:14:14.647 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 190 (number: 190)
+2025-06-22 22:14:14.648 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 189 (number: 189)
+2025-06-22 22:14:14.648 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 188 (number: 188)
+2025-06-22 22:14:14.648 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 187 (number: 187)
+2025-06-22 22:14:14.649 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 186 (number: 186)
+2025-06-22 22:14:14.649 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 185 (number: 185)
+2025-06-22 22:14:14.649 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 184 (number: 184)
+2025-06-22 22:14:14.650 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 183.5 Anuncio (number: 183)
+2025-06-22 22:14:14.650 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 183 (number: 183)
+2025-06-22 22:14:14.651 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 182 (number: 182)
+2025-06-22 22:14:14.651 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 181 (number: 181)
+2025-06-22 22:14:14.651 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 180 (number: 180)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 179 (number: 179)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 178 (number: 178)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 177 (number: 177)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 176 (number: 176)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 175 (number: 175)
+2025-06-22 22:14:14.652 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 174 (number: 174)
+2025-06-22 22:14:14.653 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 173 (number: 173)
+2025-06-22 22:14:14.653 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 172 (number: 172)
+2025-06-22 22:14:14.654 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 171 (number: 171)
+2025-06-22 22:14:14.654 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 170 (number: 170)
+2025-06-22 22:14:14.654 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 169 (number: 169)
+2025-06-22 22:14:14.655 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 168 (number: 168)
+2025-06-22 22:14:14.655 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 167 (number: 167)
+2025-06-22 22:14:14.659 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 166 (number: 166)
+2025-06-22 22:14:14.659 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 165 (number: 165)
+2025-06-22 22:14:14.661 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 164 (number: 164)
+2025-06-22 22:14:14.661 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 163 (number: 163)
+2025-06-22 22:14:14.661 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 162 (number: 162)
+2025-06-22 22:14:14.662 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 161 (number: 161)
+2025-06-22 22:14:14.662 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 160 (number: 160)
+2025-06-22 22:14:14.662 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 159 (number: 159)
+2025-06-22 22:14:14.663 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 158 (number: 158)
+2025-06-22 22:14:14.663 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 157 (number: 157)
+2025-06-22 22:14:14.664 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 156.5 - Aviso (number: 156)
+2025-06-22 22:14:14.664 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 156 (number: 156)
+2025-06-22 22:14:14.665 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 155 (number: 155)
+2025-06-22 22:14:14.665 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 154 (number: 154)
+2025-06-22 22:14:14.666 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 153 (number: 153)
+2025-06-22 22:14:14.666 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 152 (number: 152)
+2025-06-22 22:14:14.667 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 151 (number: 151)
+2025-06-22 22:14:14.667 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 150 (number: 150)
+2025-06-22 22:14:14.668 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 149 (number: 149)
+2025-06-22 22:14:14.668 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 148 (number: 148)
+2025-06-22 22:14:14.670 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 147 (number: 147)
+2025-06-22 22:14:14.670 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 146 (number: 146)
+2025-06-22 22:14:14.670 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 145 (number: 145)
+2025-06-22 22:14:14.671 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 144 (number: 144)
+2025-06-22 22:14:14.671 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 143 (number: 143)
+2025-06-22 22:14:14.672 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 142 (number: 142)
+2025-06-22 22:14:14.672 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 141 (number: 141)
+2025-06-22 22:14:14.672 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 140 (number: 140)
+2025-06-22 22:14:14.676 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 139 (number: 139)
+2025-06-22 22:14:14.681 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 138 (number: 138)
+2025-06-22 22:14:14.682 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 137 (number: 137)
+2025-06-22 22:14:14.682 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 136 (number: 136)
+2025-06-22 22:14:14.683 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 135 (number: 135)
+2025-06-22 22:14:14.683 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 134 (number: 134)
+2025-06-22 22:14:14.684 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 133 (number: 133)
+2025-06-22 22:14:14.684 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 132 (number: 132)
+2025-06-22 22:14:14.685 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 131 (number: 131)
+2025-06-22 22:14:14.685 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 130 (number: 130)
+2025-06-22 22:14:14.685 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 129 (number: 129)
+2025-06-22 22:14:14.686 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 128 (number: 128)
+2025-06-22 22:14:14.686 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 127 (number: 127)
+2025-06-22 22:14:14.687 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 126 (number: 126)
+2025-06-22 22:14:14.688 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 125 (number: 125)
+2025-06-22 22:14:14.689 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 124 (number: 124)
+2025-06-22 22:14:14.689 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 123 (number: 123)
+2025-06-22 22:14:14.690 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 122 (number: 122)
+2025-06-22 22:14:14.690 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 121 (number: 121)
+2025-06-22 22:14:14.690 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 120 (number: 120)
+2025-06-22 22:14:14.691 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 119 (number: 119)
+2025-06-22 22:14:14.691 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 118 (number: 118)
+2025-06-22 22:14:14.692 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 117 (number: 117)
+2025-06-22 22:14:14.692 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 116 (number: 116)
+2025-06-22 22:14:14.692 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 115 (number: 115)
+2025-06-22 22:14:14.693 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 114 (number: 114)
+2025-06-22 22:14:14.693 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 113 (number: 113)
+2025-06-22 22:14:14.694 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 112 (number: 112)
+2025-06-22 22:14:14.695 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 111 (number: 111)
+2025-06-22 22:14:14.699 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 110 (number: 110)
+2025-06-22 22:14:14.702 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 109 (number: 109)
+2025-06-22 22:14:14.704 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 108 (number: 108)
+2025-06-22 22:14:14.704 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 107 (number: 107)
+2025-06-22 22:14:14.705 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 106 (number: 106)
+2025-06-22 22:14:14.705 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 105 (number: 105)
+2025-06-22 22:14:14.705 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 104 (number: 104)
+2025-06-22 22:14:14.706 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 103 (number: 103)
+2025-06-22 22:14:14.706 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 102 (number: 102)
+2025-06-22 22:14:14.706 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 101 (number: 101)
+2025-06-22 22:14:14.706 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100)
+2025-06-22 22:14:14.707 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99)
+2025-06-22 22:14:14.707 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98)
+2025-06-22 22:14:14.707 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97)
+2025-06-22 22:14:14.707 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96)
+2025-06-22 22:14:14.708 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95)
+2025-06-22 22:14:14.708 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94)
+2025-06-22 22:14:14.708 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93)
+2025-06-22 22:14:14.708 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92)
+2025-06-22 22:14:14.708 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91)
+2025-06-22 22:14:14.709 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90)
+2025-06-22 22:14:14.709 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89)
+2025-06-22 22:14:14.709 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88)
+2025-06-22 22:14:14.711 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87)
+2025-06-22 22:14:14.711 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86)
+2025-06-22 22:14:14.712 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85)
+2025-06-22 22:14:14.712 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84)
+2025-06-22 22:14:14.712 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83)
+2025-06-22 22:14:14.712 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82)
+2025-06-22 22:14:14.713 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81)
+2025-06-22 22:14:14.714 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80)
+2025-06-22 22:14:14.715 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79)
+2025-06-22 22:14:14.716 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78)
+2025-06-22 22:14:14.717 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77)
+2025-06-22 22:14:14.718 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76)
+2025-06-22 22:14:14.718 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75)
+2025-06-22 22:14:14.720 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74)
+2025-06-22 22:14:14.724 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73)
+2025-06-22 22:14:14.725 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72)
+2025-06-22 22:14:14.725 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71)
+2025-06-22 22:14:14.725 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70)
+2025-06-22 22:14:14.725 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69)
+2025-06-22 22:14:14.726 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68)
+2025-06-22 22:14:14.726 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67)
+2025-06-22 22:14:14.726 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66)
+2025-06-22 22:14:14.727 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65)
+2025-06-22 22:14:14.728 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64)
+2025-06-22 22:14:14.728 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63)
+2025-06-22 22:14:14.729 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62)
+2025-06-22 22:14:14.729 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61)
+2025-06-22 22:14:14.730 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60)
+2025-06-22 22:14:14.730 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59)
+2025-06-22 22:14:14.731 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58)
+2025-06-22 22:14:14.731 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57)
+2025-06-22 22:14:14.732 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56)
+2025-06-22 22:14:14.732 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55)
+2025-06-22 22:14:14.732 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54)
+2025-06-22 22:14:14.733 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53)
+2025-06-22 22:14:14.733 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52)
+2025-06-22 22:14:14.735 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51)
+2025-06-22 22:14:14.737 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50)
+2025-06-22 22:14:14.737 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49)
+2025-06-22 22:14:14.737 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48)
+2025-06-22 22:14:14.738 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47)
+2025-06-22 22:14:14.738 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46)
+2025-06-22 22:14:14.739 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45)
+2025-06-22 22:14:14.740 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44)
+2025-06-22 22:14:14.740 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43)
+2025-06-22 22:14:14.740 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42)
+2025-06-22 22:14:14.741 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41)
+2025-06-22 22:14:14.741 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40)
+2025-06-22 22:14:14.742 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39)
+2025-06-22 22:14:14.743 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38)
+2025-06-22 22:14:14.744 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37)
+2025-06-22 22:14:14.746 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36)
+2025-06-22 22:14:14.747 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35)
+2025-06-22 22:14:14.747 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34)
+2025-06-22 22:14:14.748 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33)
+2025-06-22 22:14:14.748 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32)
+2025-06-22 22:14:14.749 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31)
+2025-06-22 22:14:14.749 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30)
+2025-06-22 22:14:14.750 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29)
+2025-06-22 22:14:14.751 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28)
+2025-06-22 22:14:14.752 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27)
+2025-06-22 22:14:14.752 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26)
+2025-06-22 22:14:14.752 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25)
+2025-06-22 22:14:14.752 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24)
+2025-06-22 22:14:14.753 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23)
+2025-06-22 22:14:14.753 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22)
+2025-06-22 22:14:14.754 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21)
+2025-06-22 22:14:14.754 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20)
+2025-06-22 22:14:14.754 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19)
+2025-06-22 22:14:14.754 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18)
+2025-06-22 22:14:14.755 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17)
+2025-06-22 22:14:14.755 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16)
+2025-06-22 22:14:14.756 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15)
+2025-06-22 22:14:14.757 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14)
+2025-06-22 22:14:14.758 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13)
+2025-06-22 22:14:14.758 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12)
+2025-06-22 22:14:14.758 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11)
+2025-06-22 22:14:14.759 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10)
+2025-06-22 22:14:14.762 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9)
+2025-06-22 22:14:14.765 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8)
+2025-06-22 22:14:14.765 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7)
+2025-06-22 22:14:14.766 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6)
+2025-06-22 22:14:14.766 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5)
+2025-06-22 22:14:14.767 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4)
+2025-06-22 22:14:14.767 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3)
+2025-06-22 22:14:14.768 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2)
+2025-06-22 22:14:14.768 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1)
+2025-06-22 22:14:14.768 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 233
+2025-06-22 22:14:14.769 | INFO     | app.services.telegram_bot:get_chapters:44 - 233 chapters found for Subiendo de Nivel 10 000 años en el futuro
+2025-06-22 22:14:17.874 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: page|Subiendo de Nivel 10 000 años en el futuro|11 from FatiAilen
+2025-06-22 22:14:17.874 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-22 22:14:17.874 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for Subiendo de Nivel 10 000 años en el futuro loaded from cache.
+2025-06-22 22:14:21.466 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|Subiendo de Nivel 10 000 años en el futuro|7 from FatiAilen
+2025-06-22 22:14:21.466 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-22 22:14:22.032 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for Subiendo de Nivel 10 000 años en el futuro loaded from cache.
+2025-06-22 22:14:22.033 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 7 in https://taurusmanga.com/manga/subiendo-de-nivel-10-000-anos-en-el-futuro/
+2025-06-22 22:14:23.762 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/subiendo-de-nivel-10-000-anos-en-el-futuro/capitulo-7/
+2025-06-22 22:14:24.502 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 18 images in chapter 7
+2025-06-22 22:15:58.522 | INFO     | app.main:shutdown_event:19 - 🛑 App shutting down...
+2025-06-24 23:27:55.732 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:27:55.732 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:27:57.048 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:27:57.049 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:28:14.695 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|El dios marcial que regresó al nivel 2 from M4S1N
+2025-06-24 23:28:14.970 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:28:14.970 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:28:14.970 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: El dios marcial que regresó al nivel 2
+2025-06-24 23:28:15.521 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100.05 (number: 10)
+2025-06-24 23:28:15.522 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100)
+2025-06-24 23:28:15.522 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99)
+2025-06-24 23:28:15.522 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98)
+2025-06-24 23:28:15.522 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97)
+2025-06-24 23:28:15.523 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96)
+2025-06-24 23:28:15.523 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95)
+2025-06-24 23:28:15.523 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94)
+2025-06-24 23:28:15.523 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93)
+2025-06-24 23:28:15.523 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92)
+2025-06-24 23:28:15.524 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91)
+2025-06-24 23:28:15.524 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90)
+2025-06-24 23:28:15.524 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89)
+2025-06-24 23:28:15.524 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88)
+2025-06-24 23:28:15.524 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87)
+2025-06-24 23:28:15.525 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86)
+2025-06-24 23:28:15.525 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85)
+2025-06-24 23:28:15.525 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84)
+2025-06-24 23:28:15.525 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83)
+2025-06-24 23:28:15.526 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82)
+2025-06-24 23:28:15.526 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81)
+2025-06-24 23:28:15.526 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80)
+2025-06-24 23:28:15.526 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79)
+2025-06-24 23:28:15.527 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78)
+2025-06-24 23:28:15.527 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77)
+2025-06-24 23:28:15.527 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76)
+2025-06-24 23:28:15.527 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75)
+2025-06-24 23:28:15.527 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74)
+2025-06-24 23:28:15.528 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73)
+2025-06-24 23:28:15.528 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72)
+2025-06-24 23:28:15.528 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71)
+2025-06-24 23:28:15.529 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70)
+2025-06-24 23:28:15.529 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69)
+2025-06-24 23:28:15.529 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68)
+2025-06-24 23:28:15.529 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67)
+2025-06-24 23:28:15.529 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66)
+2025-06-24 23:28:15.530 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65)
+2025-06-24 23:28:15.530 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64)
+2025-06-24 23:28:15.530 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63)
+2025-06-24 23:28:15.530 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62)
+2025-06-24 23:28:15.530 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61)
+2025-06-24 23:28:15.531 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60)
+2025-06-24 23:28:15.531 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59)
+2025-06-24 23:28:15.531 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58)
+2025-06-24 23:28:15.532 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57)
+2025-06-24 23:28:15.532 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56)
+2025-06-24 23:28:15.532 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55)
+2025-06-24 23:28:15.533 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54)
+2025-06-24 23:28:15.533 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53)
+2025-06-24 23:28:15.533 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52)
+2025-06-24 23:28:15.533 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51)
+2025-06-24 23:28:15.534 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50)
+2025-06-24 23:28:15.534 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49)
+2025-06-24 23:28:15.534 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48)
+2025-06-24 23:28:15.534 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47)
+2025-06-24 23:28:15.535 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46)
+2025-06-24 23:28:15.535 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45)
+2025-06-24 23:28:15.535 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44)
+2025-06-24 23:28:15.536 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43)
+2025-06-24 23:28:15.536 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42)
+2025-06-24 23:28:15.536 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41)
+2025-06-24 23:28:15.537 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40)
+2025-06-24 23:28:15.538 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39)
+2025-06-24 23:28:15.538 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38)
+2025-06-24 23:28:15.538 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37)
+2025-06-24 23:28:15.539 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36)
+2025-06-24 23:28:15.539 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35)
+2025-06-24 23:28:15.539 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34)
+2025-06-24 23:28:15.540 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33)
+2025-06-24 23:28:15.540 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32)
+2025-06-24 23:28:15.540 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31)
+2025-06-24 23:28:15.541 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30)
+2025-06-24 23:28:15.541 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29)
+2025-06-24 23:28:15.541 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28)
+2025-06-24 23:28:15.542 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27)
+2025-06-24 23:28:15.542 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26)
+2025-06-24 23:28:15.542 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25)
+2025-06-24 23:28:15.543 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24)
+2025-06-24 23:28:15.543 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23)
+2025-06-24 23:28:15.543 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22)
+2025-06-24 23:28:15.544 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21)
+2025-06-24 23:28:15.544 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20)
+2025-06-24 23:28:15.544 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19)
+2025-06-24 23:28:15.545 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18)
+2025-06-24 23:28:15.545 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17)
+2025-06-24 23:28:15.546 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16)
+2025-06-24 23:28:15.547 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15)
+2025-06-24 23:28:15.547 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14)
+2025-06-24 23:28:15.547 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13)
+2025-06-24 23:28:15.548 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12)
+2025-06-24 23:28:15.548 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11)
+2025-06-24 23:28:15.548 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10)
+2025-06-24 23:28:15.549 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9)
+2025-06-24 23:28:15.549 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8)
+2025-06-24 23:28:15.550 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7)
+2025-06-24 23:28:15.550 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6)
+2025-06-24 23:28:15.550 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5)
+2025-06-24 23:28:15.550 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4)
+2025-06-24 23:28:15.551 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3)
+2025-06-24 23:28:15.551 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2)
+2025-06-24 23:28:15.551 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1)
+2025-06-24 23:28:15.552 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 101
+2025-06-24 23:28:15.553 | INFO     | app.services.telegram_bot:get_chapters:44 - 101 chapters found for El dios marcial que regresó al nivel 2
+2025-06-24 23:28:25.302 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|El dios marcial que regresó al nivel 2|100 from M4S1N
+2025-06-24 23:28:25.302 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-25 04:28:26.478 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for El dios marcial que regresó al nivel 2 loaded from cache.
+2025-06-25 04:28:26.478 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 100 in https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/
+2025-06-24 23:28:26.827 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100-05/
+2025-06-24 23:28:27.409 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 1 images in chapter 100
+2025-06-24 23:31:40.129 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:31:40.130 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:31:47.514 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:31:47.514 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:31:49.928 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|El dios marcial que regresó al nivel 2 from M4S1N
+2025-06-24 23:31:50.205 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:31:50.205 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:31:50.206 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: El dios marcial que regresó al nivel 2
+2025-06-24 23:31:50.898 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100)
+2025-06-24 23:31:50.898 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99)
+2025-06-24 23:31:50.898 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93)
+2025-06-24 23:31:50.899 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92)
+2025-06-24 23:31:50.900 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91)
+2025-06-24 23:31:50.900 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90)
+2025-06-24 23:31:50.900 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89)
+2025-06-24 23:31:50.901 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88)
+2025-06-24 23:31:50.901 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87)
+2025-06-24 23:31:50.901 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86)
+2025-06-24 23:31:50.902 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85)
+2025-06-24 23:31:50.902 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84)
+2025-06-24 23:31:50.902 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83)
+2025-06-24 23:31:50.902 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82)
+2025-06-24 23:31:50.902 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76)
+2025-06-24 23:31:50.903 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70)
+2025-06-24 23:31:50.904 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69)
+2025-06-24 23:31:50.905 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68)
+2025-06-24 23:31:50.905 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67)
+2025-06-24 23:31:50.905 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66)
+2025-06-24 23:31:50.905 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60)
+2025-06-24 23:31:50.906 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59)
+2025-06-24 23:31:50.907 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58)
+2025-06-24 23:31:50.907 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57)
+2025-06-24 23:31:50.907 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56)
+2025-06-24 23:31:50.907 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55)
+2025-06-24 23:31:50.908 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54)
+2025-06-24 23:31:50.908 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53)
+2025-06-24 23:31:50.908 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52)
+2025-06-24 23:31:50.909 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51)
+2025-06-24 23:31:50.909 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50)
+2025-06-24 23:31:50.909 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49)
+2025-06-24 23:31:50.909 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48)
+2025-06-24 23:31:50.910 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47)
+2025-06-24 23:31:50.910 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46)
+2025-06-24 23:31:50.911 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45)
+2025-06-24 23:31:50.911 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44)
+2025-06-24 23:31:50.911 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43)
+2025-06-24 23:31:50.912 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42)
+2025-06-24 23:31:50.912 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41)
+2025-06-24 23:31:50.912 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40)
+2025-06-24 23:31:50.912 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39)
+2025-06-24 23:31:50.913 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38)
+2025-06-24 23:31:50.913 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37)
+2025-06-24 23:31:50.913 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36)
+2025-06-24 23:31:50.913 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35)
+2025-06-24 23:31:50.914 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34)
+2025-06-24 23:31:50.914 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33)
+2025-06-24 23:31:50.914 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32)
+2025-06-24 23:31:50.914 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31)
+2025-06-24 23:31:50.915 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30)
+2025-06-24 23:31:50.915 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29)
+2025-06-24 23:31:50.915 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28)
+2025-06-24 23:31:50.915 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27)
+2025-06-24 23:31:50.916 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26)
+2025-06-24 23:31:50.916 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25)
+2025-06-24 23:31:50.916 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24)
+2025-06-24 23:31:50.916 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23)
+2025-06-24 23:31:50.917 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22)
+2025-06-24 23:31:50.917 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21)
+2025-06-24 23:31:50.917 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20)
+2025-06-24 23:31:50.919 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19)
+2025-06-24 23:31:50.919 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18)
+2025-06-24 23:31:50.919 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17)
+2025-06-24 23:31:50.920 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16)
+2025-06-24 23:31:50.921 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15)
+2025-06-24 23:31:50.921 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14)
+2025-06-24 23:31:50.922 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13)
+2025-06-24 23:31:50.922 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12)
+2025-06-24 23:31:50.922 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11)
+2025-06-24 23:31:50.922 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10)
+2025-06-24 23:31:50.922 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9)
+2025-06-24 23:31:50.923 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8)
+2025-06-24 23:31:50.923 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7)
+2025-06-24 23:31:50.924 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6)
+2025-06-24 23:31:50.924 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5)
+2025-06-24 23:31:50.924 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4)
+2025-06-24 23:31:50.925 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3)
+2025-06-24 23:31:50.925 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2)
+2025-06-24 23:31:50.925 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1)
+2025-06-24 23:31:50.925 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 100
+2025-06-24 23:31:50.926 | INFO     | app.services.telegram_bot:get_chapters:44 - 100 chapters found for El dios marcial que regresó al nivel 2
+2025-06-24 23:32:02.668 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|El dios marcial que regresó al nivel 2|100 from M4S1N
+2025-06-24 23:32:02.668 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:32:03.343 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for El dios marcial que regresó al nivel 2 loaded from cache.
+2025-06-24 23:32:03.343 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 100 in https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/
+2025-06-24 23:32:04.023 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100-05/
+2025-06-24 23:32:04.658 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 1 images in chapter 100
+2025-06-25 04:32:51.823 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-25 04:32:51.824 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:32:56.551 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:32:56.551 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:32:58.723 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|El dios marcial que regresó al nivel 2 from M4S1N
+2025-06-24 23:32:59.001 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:32:59.001 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:32:59.001 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: El dios marcial que regresó al nivel 2
+2025-06-24 23:32:59.580 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100/
+2025-06-24 23:32:59.580 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-992d00c8e95b9057e2c6f3f81a941a0378/
+2025-06-24 23:32:59.580 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9866559e7f1b24c1f0c03c1a869ace952d/
+2025-06-24 23:32:59.581 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-97c489dbf7d9747c950114c10258858956/
+2025-06-24 23:32:59.581 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-961c27e71b4440f40ab2a90355ba8af456/
+2025-06-24 23:32:59.581 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-95037b35d5948ae0fc4b2bf047b6c65132/
+2025-06-24 23:32:59.581 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-94b9a2e14cac345b62029413a0d9f69a91/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-93c098cdf373be539efb3208f151abe937/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9202036f6adfe2f6d0eddc0e075c5dbef5/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9190a21f7da59ab6c7ab4a024d0443b354/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9004ab09856c153d795f97e24840bb4619/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-89104e78f82451a9f441078081069c6ed8/
+2025-06-24 23:32:59.582 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-882444fa6149069474edbcca0895b7a65e/
+2025-06-24 23:32:59.583 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-875816cf6f2b54a709b6c3dd5201630522/
+2025-06-24 23:32:59.583 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-86bf611967b3afa5145f2ca04778cb1bf0/
+2025-06-24 23:32:59.583 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-853031a18f3c5b71960d3be7092a97a4a4/
+2025-06-24 23:32:59.583 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-848188eb352a43c6aacb91493b50d9d285/
+2025-06-24 23:32:59.584 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-836bc3e09b58dbca029aa480b0bacf282d/
+2025-06-24 23:32:59.584 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-822a032363c9a25af774bba90166c4e927/
+2025-06-24 23:32:59.585 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-81d498a7d1f5460104b216081a0ffda6a1/
+2025-06-24 23:32:59.585 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-80fb2720b26dccacd812d1739ff0af23b9/
+2025-06-24 23:32:59.585 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-79d7fa1cdc6584c90617b326963f522f33/
+2025-06-24 23:32:59.585 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-783f26aec124a9754dcc6927eaa93b366a/
+2025-06-24 23:32:59.585 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7749bedb263705dd25c25733c7e5b85a5f/
+2025-06-24 23:32:59.586 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7618de45ce38dd2a084146588c03db0a9f/
+2025-06-24 23:32:59.586 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-75fab5258fc92309b4bbf849644bfbf843/
+2025-06-24 23:32:59.586 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-74b3158b73b575824600b8020298b30a73/
+2025-06-24 23:32:59.587 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-73a137970a9e61b51e80b17f337f09d651/
+2025-06-24 23:32:59.587 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-727716bfa449862325e4487b59c1823d23/
+2025-06-24 23:32:59.587 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-712c1d57528e95c9c31a89bfe4e4bf3516/
+2025-06-24 23:32:59.588 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7068bbbae8c2c9aec18ae612ed41aabc3b/
+2025-06-24 23:32:59.588 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6907b088ce03edfe30695824f1473e744a/
+2025-06-24 23:32:59.588 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-689d8035c7fad02913b982fba1068e52d8/
+2025-06-24 23:32:59.588 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-67a36091c8b3e5ef552b1625375d7b11e4/
+2025-06-24 23:32:59.588 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-664714f3c486368f64b50ec11ee7d0d3a8/
+2025-06-24 23:32:59.589 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-65ccd8b5817d29eb7b9a06685ff0b3e5fa/
+2025-06-24 23:32:59.589 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6442993b1d9c0aa1c8e1449f768908052b/
+2025-06-24 23:32:59.589 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-635fac630ea86d12c3ce12387ba613716f/
+2025-06-24 23:32:59.590 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-62a79a062286e0184b851d432c4425e3ed/
+2025-06-24 23:32:59.590 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-619b7a75fa90270fe44034d1a6fb405361/
+2025-06-24 23:32:59.590 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-608573257deb4b3cf3094df1646388fa08/
+2025-06-24 23:32:59.590 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5941c5d63781654ec080f698488ae4371d/
+2025-06-24 23:32:59.591 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5894980a11376cc53f88f3bd99521755f9/
+2025-06-24 23:32:59.591 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-57d2d9c3c19a223cc15ad918c4b2cdd89c/
+2025-06-24 23:32:59.591 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-56171b6b2273781c3e0b1ba204d5f00ae7/
+2025-06-24 23:32:59.591 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-559410c0b5952713c68988774e04e331c8/
+2025-06-24 23:32:59.592 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-543aa2579733c4a47d8d2adabf66be485f/
+2025-06-24 23:32:59.592 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-53c89f5015cd332a7df06118879cd129f0/
+2025-06-24 23:32:59.592 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-52afba3b9e686bda06e2859f467874b6b9/
+2025-06-24 23:32:59.592 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-51e877e8b8fcad197cb759310abf42929e/
+2025-06-24 23:32:59.592 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50b261c019253d2f15e73fdb60fea3d545/
+2025-06-24 23:32:59.593 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-490271054f526ee0ccfa036fd5047e4245/
+2025-06-24 23:32:59.593 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-482d2afb0a693273d49a4479aabb3ffd03/
+2025-06-24 23:32:59.593 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-474a232026e91e7fde15e5f7f37f9c625c/
+2025-06-24 23:32:59.593 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-46e476a2d4043e2c28e00c8eb7e8385f65/
+2025-06-24 23:32:59.593 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-45a384cd3aef3b596a105476a338f2f41d/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-443bfd7f27eed9981ec1a9fae815835686/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-43f540de20d81f40416a4ddb2ff34b21bc/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4263b5318c832b858338c3082278d1fba9/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4196e80d92e7f456719c7efc6be3fd6151/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4048416d302e0f99927a31a5f12f9cf09c/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-39246199fbb3394fadd053495f20dfeced/
+2025-06-24 23:32:59.594 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-384433858ad6a914654375410aa2127073/
+2025-06-24 23:32:59.595 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-37586fff3c1745b4047f651a59eda77520/
+2025-06-24 23:32:59.595 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-36975d8b730ab495f69f3741e9acd3923a/
+2025-06-24 23:32:59.595 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-354c06e12eebb920a60484ce25004cfcfb/
+2025-06-24 23:32:59.595 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-345cb660422daa0c5a035dc740eab6ad48/
+2025-06-24 23:32:59.595 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-33c50695000cc155dee2e8f0522bc0cf90/
+2025-06-24 23:32:59.596 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-32a93ef9f0ad4de199fa3d8b3d8bf4a043/
+2025-06-24 23:32:59.596 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-31260c8cbf410f76b9d34ef05d37b2e583/
+2025-06-24 23:32:59.596 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-30f4c85cf11c59978bdc04b270fcaf1a95/
+2025-06-24 23:32:59.596 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-29638924767b526dfa29c1029cf3ebeb83/
+2025-06-24 23:32:59.596 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-28111fac15008dd528fe9a70f76990e779/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-277f5e6bbf5aaf2f6e2771bcd5d6fd0147/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-268512318861b3e17969ba3cc74b6ed1e0/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-25bda9432db59f593aa6781c4b42cbc558/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-24fe90cbcd7de312ab3e78ba6edd1be3e9/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-233e294cbafe9d60394e3d8c5347806294/
+2025-06-24 23:32:59.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-22a25ec7e3c02e346d5ef8b5b00d09d28a/
+2025-06-24 23:32:59.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-21505f050c9333171f0136ffb52ad88c30/
+2025-06-24 23:32:59.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-20e41bb2c1dc4f8664c9f9fb6272ab4b1f/
+2025-06-24 23:32:59.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-19a51282476e68a0fd258a3245f8bb31ed/
+2025-06-24 23:32:59.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-18c4fc1a81b9dc908e2d268f73b86697f0/
+2025-06-24 23:32:59.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-177f651501e44790bcb99186c01208856d/
+2025-06-24 23:32:59.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-16180ac4d1d465fd94effffb5bb80f69ff/
+2025-06-24 23:32:59.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-15e986fc08641f403883d213c36b28ebbf/
+2025-06-24 23:32:59.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-148f243152c6d9762fe596456748f373a9/
+2025-06-24 23:32:59.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-13dccde52660171a8ad60da98198875f8d/
+2025-06-24 23:32:59.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-127f5a5a1c787c06369660b9f2e683d0b3/
+2025-06-24 23:32:59.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-11d6aa9188cc8e4403f7af318379a0e28c/
+2025-06-24 23:32:59.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-10485986d689c62286ce0f67bc2098fc29/
+2025-06-24 23:32:59.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-920e3ecf99d1f0dba80d1c218cc81e313/
+2025-06-24 23:32:59.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-8b9fc950c533470db5bf309511d32ab69/
+2025-06-24 23:32:59.602 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7f478dba962336d4be27a0d3726aef92a/
+2025-06-24 23:32:59.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-632c9d0448bc16da32cb0342a0dede270/
+2025-06-24 23:32:59.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50451dc4d2f2ba248ae589493924b261a/
+2025-06-24 23:32:59.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-459b25023f0158cbc2c1cad72416d6003/
+2025-06-24 23:32:59.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-3a6aecde10394d85aa0c50fa523d5f57f/
+2025-06-24 23:32:59.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-2a4037923806548997401307fcacfa239/
+2025-06-24 23:32:59.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-132c3d9fa735417b4532ef2a8987aa2e2/
+2025-06-24 23:32:59.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 100
+2025-06-24 23:32:59.605 | INFO     | app.services.telegram_bot:get_chapters:44 - 100 chapters found for El dios marcial que regresó al nivel 2
+2025-06-24 23:38:18.701 | INFO     | app.main:shutdown_event:19 - 🛑 App shutting down...
+2025-06-24 23:38:19.265 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:38:19.265 | INFO     | app.services.telegram_bot:start_bot:241 - Starting Telegram bot...
+2025-06-24 23:38:24.907 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:38:24.907 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-25 04:38:27.415 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|El dios marcial que regresó al nivel 2 from M4S1N
+2025-06-24 23:38:27.252 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:38:27.252 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:38:27.252 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: El dios marcial que regresó al nivel 2
+2025-06-24 23:38:27.834 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100/
+2025-06-24 23:38:27.835 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-992d00c8e95b9057e2c6f3f81a941a0378/
+2025-06-24 23:38:27.835 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9866559e7f1b24c1f0c03c1a869ace952d/
+2025-06-24 23:38:27.835 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-97c489dbf7d9747c950114c10258858956/
+2025-06-24 23:38:27.835 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-961c27e71b4440f40ab2a90355ba8af456/
+2025-06-24 23:38:27.836 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-95037b35d5948ae0fc4b2bf047b6c65132/
+2025-06-24 23:38:27.836 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-94b9a2e14cac345b62029413a0d9f69a91/
+2025-06-24 23:38:27.836 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-93c098cdf373be539efb3208f151abe937/
+2025-06-24 23:38:27.836 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9202036f6adfe2f6d0eddc0e075c5dbef5/
+2025-06-24 23:38:27.836 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9190a21f7da59ab6c7ab4a024d0443b354/
+2025-06-24 23:38:27.837 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9004ab09856c153d795f97e24840bb4619/
+2025-06-24 23:38:27.837 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-89104e78f82451a9f441078081069c6ed8/
+2025-06-24 23:38:27.837 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-882444fa6149069474edbcca0895b7a65e/
+2025-06-24 23:38:27.837 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-875816cf6f2b54a709b6c3dd5201630522/
+2025-06-24 23:38:27.838 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-86bf611967b3afa5145f2ca04778cb1bf0/
+2025-06-24 23:38:27.838 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-853031a18f3c5b71960d3be7092a97a4a4/
+2025-06-24 23:38:27.838 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-848188eb352a43c6aacb91493b50d9d285/
+2025-06-24 23:38:27.838 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-836bc3e09b58dbca029aa480b0bacf282d/
+2025-06-24 23:38:27.839 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-822a032363c9a25af774bba90166c4e927/
+2025-06-24 23:38:27.839 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-81d498a7d1f5460104b216081a0ffda6a1/
+2025-06-24 23:38:27.839 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-80fb2720b26dccacd812d1739ff0af23b9/
+2025-06-24 23:38:27.839 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-79d7fa1cdc6584c90617b326963f522f33/
+2025-06-24 23:38:27.840 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-783f26aec124a9754dcc6927eaa93b366a/
+2025-06-24 23:38:27.840 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7749bedb263705dd25c25733c7e5b85a5f/
+2025-06-24 23:38:27.840 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7618de45ce38dd2a084146588c03db0a9f/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-75fab5258fc92309b4bbf849644bfbf843/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-74b3158b73b575824600b8020298b30a73/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-73a137970a9e61b51e80b17f337f09d651/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-727716bfa449862325e4487b59c1823d23/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-712c1d57528e95c9c31a89bfe4e4bf3516/
+2025-06-24 23:38:27.841 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7068bbbae8c2c9aec18ae612ed41aabc3b/
+2025-06-24 23:38:27.842 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6907b088ce03edfe30695824f1473e744a/
+2025-06-24 23:38:27.842 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-689d8035c7fad02913b982fba1068e52d8/
+2025-06-24 23:38:27.842 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-67a36091c8b3e5ef552b1625375d7b11e4/
+2025-06-24 23:38:27.842 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-664714f3c486368f64b50ec11ee7d0d3a8/
+2025-06-24 23:38:27.842 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-65ccd8b5817d29eb7b9a06685ff0b3e5fa/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6442993b1d9c0aa1c8e1449f768908052b/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-635fac630ea86d12c3ce12387ba613716f/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-62a79a062286e0184b851d432c4425e3ed/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-619b7a75fa90270fe44034d1a6fb405361/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-608573257deb4b3cf3094df1646388fa08/
+2025-06-24 23:38:27.843 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5941c5d63781654ec080f698488ae4371d/
+2025-06-24 23:38:27.844 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5894980a11376cc53f88f3bd99521755f9/
+2025-06-24 23:38:27.844 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-57d2d9c3c19a223cc15ad918c4b2cdd89c/
+2025-06-24 23:38:27.844 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-56171b6b2273781c3e0b1ba204d5f00ae7/
+2025-06-24 23:38:27.845 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-559410c0b5952713c68988774e04e331c8/
+2025-06-24 23:38:27.845 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-543aa2579733c4a47d8d2adabf66be485f/
+2025-06-24 23:38:27.845 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-53c89f5015cd332a7df06118879cd129f0/
+2025-06-24 23:38:27.845 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-52afba3b9e686bda06e2859f467874b6b9/
+2025-06-24 23:38:27.846 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-51e877e8b8fcad197cb759310abf42929e/
+2025-06-24 23:38:27.846 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50b261c019253d2f15e73fdb60fea3d545/
+2025-06-24 23:38:27.846 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-490271054f526ee0ccfa036fd5047e4245/
+2025-06-24 23:38:27.846 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-482d2afb0a693273d49a4479aabb3ffd03/
+2025-06-24 23:38:27.846 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-474a232026e91e7fde15e5f7f37f9c625c/
+2025-06-24 23:38:27.847 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-46e476a2d4043e2c28e00c8eb7e8385f65/
+2025-06-24 23:38:27.847 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-45a384cd3aef3b596a105476a338f2f41d/
+2025-06-24 23:38:27.847 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-443bfd7f27eed9981ec1a9fae815835686/
+2025-06-24 23:38:27.847 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-43f540de20d81f40416a4ddb2ff34b21bc/
+2025-06-24 23:38:27.848 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4263b5318c832b858338c3082278d1fba9/
+2025-06-24 23:38:27.848 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4196e80d92e7f456719c7efc6be3fd6151/
+2025-06-24 23:38:27.848 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4048416d302e0f99927a31a5f12f9cf09c/
+2025-06-24 23:38:27.849 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-39246199fbb3394fadd053495f20dfeced/
+2025-06-24 23:38:27.849 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-384433858ad6a914654375410aa2127073/
+2025-06-24 23:38:27.849 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-37586fff3c1745b4047f651a59eda77520/
+2025-06-24 23:38:27.849 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-36975d8b730ab495f69f3741e9acd3923a/
+2025-06-24 23:38:27.850 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-354c06e12eebb920a60484ce25004cfcfb/
+2025-06-24 23:38:27.850 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-345cb660422daa0c5a035dc740eab6ad48/
+2025-06-24 23:38:27.850 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-33c50695000cc155dee2e8f0522bc0cf90/
+2025-06-24 23:38:27.850 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-32a93ef9f0ad4de199fa3d8b3d8bf4a043/
+2025-06-24 23:38:27.850 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-31260c8cbf410f76b9d34ef05d37b2e583/
+2025-06-24 23:38:27.851 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-30f4c85cf11c59978bdc04b270fcaf1a95/
+2025-06-24 23:38:27.851 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-29638924767b526dfa29c1029cf3ebeb83/
+2025-06-24 23:38:27.851 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-28111fac15008dd528fe9a70f76990e779/
+2025-06-24 23:38:27.851 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-277f5e6bbf5aaf2f6e2771bcd5d6fd0147/
+2025-06-24 23:38:27.852 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-268512318861b3e17969ba3cc74b6ed1e0/
+2025-06-24 23:38:27.852 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-25bda9432db59f593aa6781c4b42cbc558/
+2025-06-24 23:38:27.852 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-24fe90cbcd7de312ab3e78ba6edd1be3e9/
+2025-06-24 23:38:27.852 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-233e294cbafe9d60394e3d8c5347806294/
+2025-06-24 23:38:27.852 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-22a25ec7e3c02e346d5ef8b5b00d09d28a/
+2025-06-24 23:38:27.853 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-21505f050c9333171f0136ffb52ad88c30/
+2025-06-24 23:38:27.853 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-20e41bb2c1dc4f8664c9f9fb6272ab4b1f/
+2025-06-24 23:38:27.853 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-19a51282476e68a0fd258a3245f8bb31ed/
+2025-06-24 23:38:27.853 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-18c4fc1a81b9dc908e2d268f73b86697f0/
+2025-06-24 23:38:27.854 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-177f651501e44790bcb99186c01208856d/
+2025-06-24 23:38:27.854 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-16180ac4d1d465fd94effffb5bb80f69ff/
+2025-06-24 23:38:27.854 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-15e986fc08641f403883d213c36b28ebbf/
+2025-06-24 23:38:27.854 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-148f243152c6d9762fe596456748f373a9/
+2025-06-24 23:38:27.854 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-13dccde52660171a8ad60da98198875f8d/
+2025-06-24 23:38:27.855 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-127f5a5a1c787c06369660b9f2e683d0b3/
+2025-06-24 23:38:27.855 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-11d6aa9188cc8e4403f7af318379a0e28c/
+2025-06-24 23:38:27.855 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-10485986d689c62286ce0f67bc2098fc29/
+2025-06-24 23:38:27.856 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-920e3ecf99d1f0dba80d1c218cc81e313/
+2025-06-24 23:38:27.856 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-8b9fc950c533470db5bf309511d32ab69/
+2025-06-24 23:38:27.856 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7f478dba962336d4be27a0d3726aef92a/
+2025-06-24 23:38:27.857 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-632c9d0448bc16da32cb0342a0dede270/
+2025-06-24 23:38:27.857 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50451dc4d2f2ba248ae589493924b261a/
+2025-06-24 23:38:27.857 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-459b25023f0158cbc2c1cad72416d6003/
+2025-06-24 23:38:27.858 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-3a6aecde10394d85aa0c50fa523d5f57f/
+2025-06-24 23:38:27.859 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-2a4037923806548997401307fcacfa239/
+2025-06-24 23:38:27.859 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-132c3d9fa735417b4532ef2a8987aa2e2/
+2025-06-24 23:38:27.859 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 100
+2025-06-24 23:38:27.860 | INFO     | app.services.telegram_bot:get_chapters:44 - 100 chapters found for El dios marcial que regresó al nivel 2
+2025-06-24 23:38:31.017 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|El dios marcial que regresó al nivel 2|100 from M4S1N
+2025-06-24 23:38:31.017 | INFO     | app.services.telegram_bot:handle_button:174 - Chapter selected: 100 for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:38:31.018 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:38:31.581 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for El dios marcial que regresó al nivel 2 loaded from cache.
+2025-06-24 23:38:31.581 | INFO     | app.services.telegram_bot:handle_button:194 - Chapter found: Capitulo 100 (number: 100) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100/
+2025-06-24 23:38:31.582 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 100 in https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/
+2025-06-24 23:38:32.093 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100-05/
+2025-06-24 23:38:32.598 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 1 images in chapter 100
+2025-06-24 23:41:27.073 | INFO     | app.main:shutdown_event:19 - 🛑 App shutting down...
+2025-06-24 23:41:27.637 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:41:27.638 | INFO     | app.services.telegram_bot:start_bot:241 - Starting Telegram bot...
+2025-06-24 23:41:46.412 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:41:46.412 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:41:54.073 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:41:54.073 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:41:56.273 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|El dios marcial que regresó al nivel 2 from M4S1N
+2025-06-24 23:41:56.561 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:41:56.562 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: El dios marcial que regresó al nivel 2
+2025-06-24 23:41:56.562 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: El dios marcial que regresó al nivel 2
+2025-06-24 23:41:57.070 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 100 (number: 100) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100/
+2025-06-24 23:41:57.071 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 99 (number: 99) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-992d00c8e95b9057e2c6f3f81a941a0378/
+2025-06-24 23:41:57.071 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 98 (number: 98) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9866559e7f1b24c1f0c03c1a869ace952d/
+2025-06-24 23:41:57.071 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 97 (number: 97) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-97c489dbf7d9747c950114c10258858956/
+2025-06-24 23:41:57.072 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 96 (number: 96) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-961c27e71b4440f40ab2a90355ba8af456/
+2025-06-24 23:41:57.072 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 95 (number: 95) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-95037b35d5948ae0fc4b2bf047b6c65132/
+2025-06-24 23:41:57.072 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 94 (number: 94) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-94b9a2e14cac345b62029413a0d9f69a91/
+2025-06-24 23:41:57.072 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 93 (number: 93) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-93c098cdf373be539efb3208f151abe937/
+2025-06-24 23:41:57.073 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 92 (number: 92) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9202036f6adfe2f6d0eddc0e075c5dbef5/
+2025-06-24 23:41:57.073 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 91 (number: 91) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9190a21f7da59ab6c7ab4a024d0443b354/
+2025-06-24 23:41:57.073 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 90 (number: 90) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-9004ab09856c153d795f97e24840bb4619/
+2025-06-24 23:41:57.073 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 89 (number: 89) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-89104e78f82451a9f441078081069c6ed8/
+2025-06-24 23:41:57.073 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 88 (number: 88) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-882444fa6149069474edbcca0895b7a65e/
+2025-06-24 23:41:57.074 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 87 (number: 87) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-875816cf6f2b54a709b6c3dd5201630522/
+2025-06-24 23:41:57.074 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 86 (number: 86) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-86bf611967b3afa5145f2ca04778cb1bf0/
+2025-06-24 23:41:57.074 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 85 (number: 85) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-853031a18f3c5b71960d3be7092a97a4a4/
+2025-06-24 23:41:57.074 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 84 (number: 84) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-848188eb352a43c6aacb91493b50d9d285/
+2025-06-24 23:41:57.074 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 83 (number: 83) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-836bc3e09b58dbca029aa480b0bacf282d/
+2025-06-24 23:41:57.075 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 82 (number: 82) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-822a032363c9a25af774bba90166c4e927/
+2025-06-24 23:41:57.075 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 81 (number: 81) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-81d498a7d1f5460104b216081a0ffda6a1/
+2025-06-24 23:41:57.075 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 80 (number: 80) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-80fb2720b26dccacd812d1739ff0af23b9/
+2025-06-24 23:41:57.075 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 79 (number: 79) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-79d7fa1cdc6584c90617b326963f522f33/
+2025-06-24 23:41:57.075 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 78 (number: 78) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-783f26aec124a9754dcc6927eaa93b366a/
+2025-06-24 23:41:57.076 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 77 (number: 77) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7749bedb263705dd25c25733c7e5b85a5f/
+2025-06-24 23:41:57.076 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 76 (number: 76) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7618de45ce38dd2a084146588c03db0a9f/
+2025-06-24 23:41:57.076 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 75 (number: 75) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-75fab5258fc92309b4bbf849644bfbf843/
+2025-06-24 23:41:57.076 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 74 (number: 74) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-74b3158b73b575824600b8020298b30a73/
+2025-06-24 23:41:57.076 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 73 (number: 73) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-73a137970a9e61b51e80b17f337f09d651/
+2025-06-24 23:41:57.077 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 72 (number: 72) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-727716bfa449862325e4487b59c1823d23/
+2025-06-24 23:41:57.077 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 71 (number: 71) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-712c1d57528e95c9c31a89bfe4e4bf3516/
+2025-06-24 23:41:57.077 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 70 (number: 70) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7068bbbae8c2c9aec18ae612ed41aabc3b/
+2025-06-24 23:41:57.077 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 69 (number: 69) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6907b088ce03edfe30695824f1473e744a/
+2025-06-24 23:41:57.078 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 68 (number: 68) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-689d8035c7fad02913b982fba1068e52d8/
+2025-06-24 23:41:57.078 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 67 (number: 67) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-67a36091c8b3e5ef552b1625375d7b11e4/
+2025-06-24 23:41:57.078 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 66 (number: 66) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-664714f3c486368f64b50ec11ee7d0d3a8/
+2025-06-24 23:41:57.078 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 65 (number: 65) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-65ccd8b5817d29eb7b9a06685ff0b3e5fa/
+2025-06-24 23:41:57.079 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 64 (number: 64) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-6442993b1d9c0aa1c8e1449f768908052b/
+2025-06-24 23:41:57.079 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 63 (number: 63) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-635fac630ea86d12c3ce12387ba613716f/
+2025-06-24 23:41:57.079 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 62 (number: 62) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-62a79a062286e0184b851d432c4425e3ed/
+2025-06-24 23:41:57.079 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 61 (number: 61) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-619b7a75fa90270fe44034d1a6fb405361/
+2025-06-24 23:41:57.079 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 60 (number: 60) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-608573257deb4b3cf3094df1646388fa08/
+2025-06-24 23:41:57.080 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 59 (number: 59) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5941c5d63781654ec080f698488ae4371d/
+2025-06-24 23:41:57.080 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 58 (number: 58) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-5894980a11376cc53f88f3bd99521755f9/
+2025-06-24 23:41:57.080 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 57 (number: 57) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-57d2d9c3c19a223cc15ad918c4b2cdd89c/
+2025-06-24 23:41:57.081 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 56 (number: 56) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-56171b6b2273781c3e0b1ba204d5f00ae7/
+2025-06-24 23:41:57.081 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 55 (number: 55) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-559410c0b5952713c68988774e04e331c8/
+2025-06-24 23:41:57.081 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 54 (number: 54) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-543aa2579733c4a47d8d2adabf66be485f/
+2025-06-24 23:41:57.081 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 53 (number: 53) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-53c89f5015cd332a7df06118879cd129f0/
+2025-06-24 23:41:57.082 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 52 (number: 52) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-52afba3b9e686bda06e2859f467874b6b9/
+2025-06-24 23:41:57.082 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 51 (number: 51) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-51e877e8b8fcad197cb759310abf42929e/
+2025-06-24 23:41:57.082 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 50 (number: 50) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50b261c019253d2f15e73fdb60fea3d545/
+2025-06-24 23:41:57.082 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 49 (number: 49) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-490271054f526ee0ccfa036fd5047e4245/
+2025-06-24 23:41:57.082 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 48 (number: 48) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-482d2afb0a693273d49a4479aabb3ffd03/
+2025-06-24 23:41:57.083 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 47 (number: 47) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-474a232026e91e7fde15e5f7f37f9c625c/
+2025-06-24 23:41:57.083 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 46 (number: 46) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-46e476a2d4043e2c28e00c8eb7e8385f65/
+2025-06-24 23:41:57.083 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 45 (number: 45) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-45a384cd3aef3b596a105476a338f2f41d/
+2025-06-24 23:41:57.083 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 44 (number: 44) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-443bfd7f27eed9981ec1a9fae815835686/
+2025-06-24 23:41:57.084 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 43 (number: 43) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-43f540de20d81f40416a4ddb2ff34b21bc/
+2025-06-24 23:41:57.084 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 42 (number: 42) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4263b5318c832b858338c3082278d1fba9/
+2025-06-24 23:41:57.084 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 41 (number: 41) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4196e80d92e7f456719c7efc6be3fd6151/
+2025-06-24 23:41:57.085 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 40 (number: 40) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-4048416d302e0f99927a31a5f12f9cf09c/
+2025-06-24 23:41:57.085 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 39 (number: 39) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-39246199fbb3394fadd053495f20dfeced/
+2025-06-24 23:41:57.085 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 38 (number: 38) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-384433858ad6a914654375410aa2127073/
+2025-06-24 23:41:57.085 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 37 (number: 37) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-37586fff3c1745b4047f651a59eda77520/
+2025-06-24 23:41:57.086 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 36 (number: 36) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-36975d8b730ab495f69f3741e9acd3923a/
+2025-06-24 23:41:57.086 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 35 (number: 35) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-354c06e12eebb920a60484ce25004cfcfb/
+2025-06-24 23:41:57.086 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 34 (number: 34) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-345cb660422daa0c5a035dc740eab6ad48/
+2025-06-24 23:41:57.087 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 33 (number: 33) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-33c50695000cc155dee2e8f0522bc0cf90/
+2025-06-24 23:41:57.088 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 32 (number: 32) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-32a93ef9f0ad4de199fa3d8b3d8bf4a043/
+2025-06-24 23:41:57.088 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 31 (number: 31) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-31260c8cbf410f76b9d34ef05d37b2e583/
+2025-06-24 23:41:57.089 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 30 (number: 30) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-30f4c85cf11c59978bdc04b270fcaf1a95/
+2025-06-24 23:41:57.089 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 29 (number: 29) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-29638924767b526dfa29c1029cf3ebeb83/
+2025-06-24 23:41:57.089 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 28 (number: 28) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-28111fac15008dd528fe9a70f76990e779/
+2025-06-24 23:41:57.090 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 27 (number: 27) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-277f5e6bbf5aaf2f6e2771bcd5d6fd0147/
+2025-06-24 23:41:57.090 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 26 (number: 26) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-268512318861b3e17969ba3cc74b6ed1e0/
+2025-06-24 23:41:57.090 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 25 (number: 25) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-25bda9432db59f593aa6781c4b42cbc558/
+2025-06-24 23:41:57.090 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 24 (number: 24) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-24fe90cbcd7de312ab3e78ba6edd1be3e9/
+2025-06-24 23:41:57.090 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 23 (number: 23) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-233e294cbafe9d60394e3d8c5347806294/
+2025-06-24 23:41:57.091 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 22 (number: 22) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-22a25ec7e3c02e346d5ef8b5b00d09d28a/
+2025-06-24 23:41:57.091 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 21 (number: 21) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-21505f050c9333171f0136ffb52ad88c30/
+2025-06-24 23:41:57.091 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 20 (number: 20) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-20e41bb2c1dc4f8664c9f9fb6272ab4b1f/
+2025-06-24 23:41:57.091 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 19 (number: 19) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-19a51282476e68a0fd258a3245f8bb31ed/
+2025-06-24 23:41:57.092 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 18 (number: 18) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-18c4fc1a81b9dc908e2d268f73b86697f0/
+2025-06-24 23:41:57.092 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 17 (number: 17) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-177f651501e44790bcb99186c01208856d/
+2025-06-24 23:41:57.092 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 16 (number: 16) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-16180ac4d1d465fd94effffb5bb80f69ff/
+2025-06-24 23:41:57.092 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 15 (number: 15) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-15e986fc08641f403883d213c36b28ebbf/
+2025-06-24 23:41:57.093 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 14 (number: 14) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-148f243152c6d9762fe596456748f373a9/
+2025-06-24 23:41:57.093 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 13 (number: 13) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-13dccde52660171a8ad60da98198875f8d/
+2025-06-24 23:41:57.093 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 12 (number: 12) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-127f5a5a1c787c06369660b9f2e683d0b3/
+2025-06-24 23:41:57.093 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 11 (number: 11) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-11d6aa9188cc8e4403f7af318379a0e28c/
+2025-06-24 23:41:57.094 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 10 (number: 10) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-10485986d689c62286ce0f67bc2098fc29/
+2025-06-24 23:41:57.094 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 9 (number: 9) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-920e3ecf99d1f0dba80d1c218cc81e313/
+2025-06-24 23:41:57.094 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 8 (number: 8) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-8b9fc950c533470db5bf309511d32ab69/
+2025-06-24 23:41:57.094 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 7 (number: 7) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-7f478dba962336d4be27a0d3726aef92a/
+2025-06-24 23:41:57.095 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 6 (number: 6) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-632c9d0448bc16da32cb0342a0dede270/
+2025-06-24 23:41:57.095 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 5 (number: 5) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-50451dc4d2f2ba248ae589493924b261a/
+2025-06-24 23:41:57.095 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 4 (number: 4) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-459b25023f0158cbc2c1cad72416d6003/
+2025-06-24 23:41:57.095 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 3 (number: 3) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-3a6aecde10394d85aa0c50fa523d5f57f/
+2025-06-24 23:41:57.096 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 2 (number: 2) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-2a4037923806548997401307fcacfa239/
+2025-06-24 23:41:57.096 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capitulo 1 (number: 1) url: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/el-dios-marcial-que-regres-al-nivel-2-capitulo-132c3d9fa735417b4532ef2a8987aa2e2/
+2025-06-24 23:41:57.096 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 100
+2025-06-24 23:41:57.097 | INFO     | app.services.telegram_bot:get_chapters:44 - 100 chapters found for El dios marcial que regresó al nivel 2
+2025-06-24 23:41:59.191 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|El dios marcial que regresó al nivel 2|100 from M4S1N
+2025-06-24 23:41:59.191 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:41:59.764 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for El dios marcial que regresó al nivel 2 loaded from cache.
+2025-06-24 23:41:59.764 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 100 in https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/
+2025-06-24 23:42:00.328 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/el-dios-marcial-que-regreso-al-nivel-2/capitulo-100/
+2025-06-24 23:42:00.871 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 39 images in chapter 100
+2025-06-24 23:48:49.677 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:48:49.677 | INFO     | app.services.telegram_bot:get_comics:32 - 3 comics loaded from COMICS_ENV.
+2025-06-24 23:48:58.489 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:48:58.489 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:49:01.145 | INFO     | app.services.telegram_bot:start:52 - /start command received from M4S1N
+2025-06-24 23:49:01.146 | INFO     | app.services.telegram_bot:get_comics:32 - 4 comics loaded from COMICS_ENV.
+2025-06-24 23:51:22.385 | INFO     | app.main:startup_event:14 - 🚀 App starting...
+2025-06-24 23:51:22.385 | INFO     | app.services.telegram_bot:start_bot:239 - Starting Telegram bot...
+2025-06-24 23:51:29.774 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: comic|Me converti en rey buscando basura from M4S1N
+2025-06-24 23:51:30.043 | INFO     | app.services.telegram_bot:get_comics:32 - 4 comics loaded from COMICS_ENV.
+2025-06-24 23:51:30.044 | INFO     | app.services.telegram_bot:get_chapters:41 - Getting chapters for comic: Me converti en rey buscando basura
+2025-06-24 23:51:30.044 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:9 - Requesting comic page: Me converti en rey buscando basura
+2025-06-24 23:51:31.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 70 (number: 70) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-70/
+2025-06-24 23:51:31.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 69 (number: 69) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-69/
+2025-06-24 23:51:31.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 68 (number: 68) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-68/
+2025-06-24 23:51:31.597 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 67 (number: 67) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-67/
+2025-06-24 23:51:31.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 66 (number: 66) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-66/
+2025-06-24 23:51:31.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 65 (number: 65) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-65/
+2025-06-24 23:51:31.598 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 64 (number: 64) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-64/
+2025-06-24 23:51:31.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 63 (number: 63) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-63/
+2025-06-24 23:51:31.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 62 (number: 62) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-62/
+2025-06-24 23:51:31.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 61 (number: 61) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-61/
+2025-06-24 23:51:31.599 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 60 (number: 60) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-60/
+2025-06-24 23:51:31.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 59 (number: 59) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-59/
+2025-06-24 23:51:31.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 58 (number: 58) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-58/
+2025-06-24 23:51:31.600 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 57 (number: 57) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-57/
+2025-06-24 23:51:31.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 56 (number: 56) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-56/
+2025-06-24 23:51:31.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 55 (number: 55) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-55/
+2025-06-24 23:51:31.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 54 (number: 54) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-54/
+2025-06-24 23:51:31.601 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 53 (number: 53) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-53/
+2025-06-24 23:51:31.602 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 52 (number: 52) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-52/
+2025-06-24 23:51:31.602 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 51 (number: 51) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-51/
+2025-06-24 23:51:31.602 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 50 (number: 50) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-50/
+2025-06-24 23:51:31.602 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 49 (number: 49) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-49/
+2025-06-24 23:51:31.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 48 (number: 48) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-48/
+2025-06-24 23:51:31.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 47 (number: 47) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-47/
+2025-06-24 23:51:31.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 46 (number: 46) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-46/
+2025-06-24 23:51:31.603 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 45 (number: 45) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-45/
+2025-06-24 23:51:31.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 44 (number: 44) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-44/
+2025-06-24 23:51:31.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 43 (number: 43) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-43/
+2025-06-24 23:51:31.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 42 (number: 42) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-42/
+2025-06-24 23:51:31.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 41 (number: 41) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-41/
+2025-06-24 23:51:31.604 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 40 (number: 40) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-40/
+2025-06-24 23:51:31.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 39 (number: 39) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-39/
+2025-06-24 23:51:31.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 38 (number: 38) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-38/
+2025-06-24 23:51:31.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 37 (number: 37) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-37/
+2025-06-24 23:51:31.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 36 (number: 36) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-36/
+2025-06-24 23:51:31.605 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 35 (number: 35) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-35/
+2025-06-24 23:51:31.606 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 34 (number: 34) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-34/
+2025-06-24 23:51:31.606 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 33 (number: 33) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-33/
+2025-06-24 23:51:31.606 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 32 (number: 32) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-32/
+2025-06-24 23:51:31.606 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 31 (number: 31) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-31/
+2025-06-24 23:51:31.607 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 30 (number: 30) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-30/
+2025-06-24 23:51:31.607 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 29 (number: 29) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-29/
+2025-06-24 23:51:31.607 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 28 (number: 28) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-28/
+2025-06-24 23:51:31.607 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 27 (number: 27) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-27/
+2025-06-24 23:51:31.607 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 26 (number: 26) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-26/
+2025-06-24 23:51:31.608 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 25 (number: 25) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-25/
+2025-06-24 23:51:31.608 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 24 (number: 24) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-24/
+2025-06-24 23:51:31.608 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 23 (number: 23) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-23/
+2025-06-24 23:51:31.609 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 22 (number: 22) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-22/
+2025-06-24 23:51:31.609 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 21 (number: 21) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-21/
+2025-06-24 23:51:31.609 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 20 (number: 20) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-20/
+2025-06-24 23:51:31.609 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 19 (number: 19) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-19/
+2025-06-24 23:51:31.610 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 18 (number: 18) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-18/
+2025-06-24 23:51:31.610 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 17 (number: 17) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-17/
+2025-06-24 23:51:31.612 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 16 (number: 16) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-16/
+2025-06-24 23:51:31.612 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 15 (number: 15) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-15/
+2025-06-24 23:51:31.613 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 14 (number: 14) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-14/
+2025-06-24 23:51:31.613 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 13 (number: 13) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-13/
+2025-06-24 23:51:31.613 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 12 (number: 12) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-12/
+2025-06-24 23:51:31.613 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 11 (number: 11) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-11/
+2025-06-24 23:51:31.614 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 10 (number: 10) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-10/
+2025-06-24 23:51:31.615 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 9 (number: 9) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-9/
+2025-06-24 23:51:31.615 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 8 (number: 8) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-8/
+2025-06-24 23:51:31.615 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 7 (number: 7) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-7/
+2025-06-24 23:51:31.616 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 6 (number: 6) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-6/
+2025-06-24 23:51:31.616 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 5 (number: 5) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-5/
+2025-06-24 23:51:31.616 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 4 (number: 4) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-4/
+2025-06-24 23:51:31.617 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 3 (number: 3) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-3/
+2025-06-24 23:51:31.617 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 2 (number: 2) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-2/
+2025-06-24 23:51:31.618 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:24 - Chapter found: Capítulo 1 (number: 1) url: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-1/
+2025-06-24 23:51:31.618 | INFO     | app.scrapers.scrape_comic:get_chapters_for_comic:26 - Total chapters found: 70
+2025-06-24 23:51:31.619 | INFO     | app.services.telegram_bot:get_chapters:44 - 70 chapters found for Me converti en rey buscando basura
+2025-06-24 23:51:38.994 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: page|Me converti en rey buscando basura|3 from M4S1N
+2025-06-24 23:51:38.995 | INFO     | app.services.telegram_bot:get_comics:32 - 4 comics loaded from COMICS_ENV.
+2025-06-24 23:51:38.995 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for Me converti en rey buscando basura loaded from cache.
+2025-06-24 23:51:41.981 | INFO     | app.services.telegram_bot:handle_button:91 - Callback received: chapter|Me converti en rey buscando basura|1 from M4S1N
+2025-06-24 23:51:41.981 | INFO     | app.services.telegram_bot:get_comics:32 - 4 comics loaded from COMICS_ENV.
+2025-06-24 23:51:42.534 | INFO     | app.services.telegram_bot:get_chapters:39 - Chapters for Me converti en rey buscando basura loaded from cache.
+2025-06-24 23:51:42.534 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:52 - Searching chapter 1 in https://taurusmanga.com/manga/me-converti-en-rey-buscando-basura/
+2025-06-24 23:51:44.148 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:58 - Chapter URL: https://lectortaurus2.yopres.com/manga/me-converti-en-rey-buscando-basura/capitulo-1/
+2025-06-24 23:51:44.745 | INFO     | app.scrapers.scrape_cap:scrape_chapter_images:61 - Found 28 images in chapter 1
