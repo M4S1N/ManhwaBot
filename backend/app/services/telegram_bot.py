@@ -34,37 +34,19 @@ def get_comics() -> list[ComicModel]:
         logger.error(f"Error parsing COMICS_ENV: {e}")
     return comics
 
-def get_chapters(comic: ComicModel) -> list[ChapterModel]:
+async def get_chapters(comic: ComicModel) -> list[ChapterModel]:
     if comic.name in CHAPTERS_CACHE:
         logger.info(f"Chapters for {comic.name} loaded from cache.")
         return CHAPTERS_CACHE[comic.name]
     logger.info(f"Getting chapters for comic: {comic.name}")
     try:
-        chapters = get_chapters_for_comic(comic)
+        chapters = await get_chapters_for_comic(comic)
         logger.info(f"{len(chapters)} chapters found for {comic.name}")
         CHAPTERS_CACHE[comic.name] = chapters
         return chapters
     except Exception as e:
         logger.error(f"Error getting chapters for {comic.name}: {e}")
         return []
-
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    logger.info(f"/start command received from {update.effective_user.username}")
-    CHAPTERS_CACHE.clear()
-    comics = get_comics()
-    if not comics:
-        logger.warning("No comics available to display.")
-        await update.message.reply_text("No comics available.")
-        return
-    keyboard = [
-        [InlineKeyboardButton(comic.name, callback_data=f"comic|{comic.name}")]
-        for comic in comics
-    ]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text(
-        "¡Bienvenido! Selecciona un manhwa para ver los capítulos.",
-        reply_markup=reply_markup
-    )
 
 def paginate_chapters(chapters, page):
     total_pages = (len(chapters) - 1) // CHAPTERS_PER_PAGE
@@ -83,6 +65,24 @@ def build_keyboard(page_chapters, comic_name):
     if row:
         keyboard.append(row)
     return keyboard
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    logger.info(f"/start command received from {update.effective_user.username}")
+    CHAPTERS_CACHE.clear()
+    comics = get_comics()
+    if not comics:
+        logger.warning("No comics available to display.")
+        await update.message.reply_text("No comics available.")
+        return
+    keyboard = [
+        [InlineKeyboardButton(comic.name, callback_data=f"comic|{comic.name}")]
+        for comic in comics
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await update.message.reply_text(
+        "¡Bienvenido! Selecciona un manhwa para ver los capítulos.",
+        reply_markup=reply_markup
+    )
 
 async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
@@ -104,7 +104,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await query.edit_message_text("❌ Comic not found.")
             return
         
-        chapters = sorted(get_chapters(comic), key=lambda c: c.number, reverse=True)
+        chapters = sorted(await get_chapters(comic), key=lambda c: c.number, reverse=True)
         if not chapters:
             logger.warning(f"No chapters found for comic: {comic.name}")
             await query.edit_message_text("❌ No chapters found for this comic.")
@@ -139,7 +139,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await query.edit_message_text("❌ Comic not found.")
             return
         
-        chapters = sorted(get_chapters(comic), key=lambda c: c.number, reverse=True)
+        chapters = sorted(await get_chapters(comic), key=lambda c: c.number, reverse=True)
         page_chapters, total_pages = paginate_chapters(chapters, page)
         keyboard = build_keyboard(page_chapters, comic.name)
         nav_buttons = []
@@ -176,6 +176,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             logger.warning(f"Comic not found when selecting chapter: {comic_name}")
             await query.edit_message_text("❌ Comic not found.")
             return
+        
         # Paso 1: Recopilando información
         photo_msg_id = context.user_data.get("comic_photo_msg_id")
         await context.bot.edit_message_reply_markup(
@@ -188,7 +189,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             text="📄 <b>Recopilando información del capítulo...</b>",
             parse_mode="HTML"
         )
-        chapters = get_chapters(comic)
+        chapters = await get_chapters(comic)
         chapter = next((ch for ch in chapters if str(ch.number) == chap_number), None)
         if not chapter:
             logger.warning(f"Chapter not found: {chap_number} in {comic.name}")

@@ -1,20 +1,22 @@
-import requests
+import httpx
 from bs4 import BeautifulSoup
 from app.core.logger import logger
 import re
 from io import BytesIO
 from PIL import Image
 from reportlab.lib.pagesizes import letter
+import asyncio
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-def get_chapter_url(base_url: str, chapter_number: int) -> str:
+async def get_chapter_url(base_url: str, chapter_number: int) -> str:
     try:
-        response = requests.get(base_url, headers=HEADERS)
-        response.raise_for_status()
-    except requests.RequestException as e:
+        async with httpx.AsyncClient(follow_redirects=True) as client:
+            response = await client.get(base_url, headers=HEADERS)
+            response.raise_for_status()
+    except httpx.RequestError as e:
         logger.error(f"Failed to fetch base URL {base_url}: {e}")
         return None
 
@@ -37,63 +39,64 @@ def get_chapter_url(base_url: str, chapter_number: int) -> str:
     return None
 
 
-def get_chapter_images(chapter_url: str) -> list:
-    response = requests.get(chapter_url, headers=HEADERS)
-    response.raise_for_status()
+async def get_chapter_images(chapter_url: str) -> list:
+    async with httpx.AsyncClient(follow_redirects=True) as client:
+        response = await client.get(chapter_url, headers=HEADERS)
+        response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
     # Extract image URLs from the chapter page
     image_tags = soup.select("div.page-break img")
-    image_urls = [img.get("src") or img.get("data-src") for img in image_tags if img.get("src") or img.get("data-src")]
+    image_urls = [(img.get("src") or img.get("data-src")).strip() for img in image_tags if img.get("src") or img.get("data-src")]
 
     return image_urls
 
 async def scrape_chapter_images(base_url: str, chapter_number: int, whit_progress_bar = False, telegram_msg = None) -> list:
     logger.info(f"Searching chapter {chapter_number} in {base_url}")
-    chapter_url = get_chapter_url(base_url, chapter_number)
+    chapter_url = await get_chapter_url(base_url, chapter_number)
 
     if not chapter_url:
         return []
     
     logger.info(f"Chapter URL: {chapter_url}")
-    images = get_chapter_images(chapter_url)
+    images = await get_chapter_images(chapter_url)
 
     logger.info(f"Found {len(images)} images in chapter {chapter_number}")
     total = len(images)
     image_data = []
-    for idx, url in enumerate(images, start=1):
-        try:
-            logger.debug(f"Downloading image {idx}: {url}")
-            response = requests.get(url)
-            response.raise_for_status()
-            
-            img_bytes = response.content
-            pil = Image.open(BytesIO(img_bytes)).convert("RGB")
-            w, h = pil.size
-            max_w = int(letter[0])
-            if w > max_w:
-                new_h = int(max_w * h / w)
-                pil = pil.resize((max_w, new_h), Image.LANCZOS)
-                pil.size
-            
-            buf = BytesIO()
-            pil.save(buf, format="JPEG", quality=90, optimize=True)
-            buf.seek(0)
-            image_data.append(buf.getvalue())
-            buf.close()
+    async with httpx.AsyncClient(follow_redirects=True) as client:
+        for idx, url in enumerate(images, start=1):
+            try:
+                logger.debug(f"Downloading image {idx}: {url}")
+                response = await client.get(url)
+                response.raise_for_status()
+                img_bytes = response.content
 
-            if whit_progress_bar and telegram_msg is not None:
-                # Actualizar barra de progreso en Telegram
-                progress = int(idx / total * 100)
-                bar = "█" * (progress // 10) + "░" * (10 - (progress // 10))
-                await telegram_msg.edit_text(
-                    text=f"⬇️ <b>Descargando contenido...</b>\n[{bar}] {progress}%",
-                    parse_mode="HTML"
-                )
-            
-        except requests.RequestException as e:
-            logger.error(f"Error downloading image {idx} from {url}: {e}")
+                pil = await asyncio.to_thread(Image.open, BytesIO(img_bytes))
+                pil = pil.convert("RGB")
+                w, h = pil.size
+                max_w = int(letter[0])
 
+                if w > max_w:
+                    new_h = int(max_w * h / w)
+                    pil = await asyncio.to_thread(pil.resize, (max_w, new_h), Image.LANCZOS)
+                    pil.size
+                buf = BytesIO()
+
+                await asyncio.to_thread(pil.save, buf, "JPEG", quality=90, optimize=True)
+                buf.seek(0)
+                image_data.append(buf.getvalue())
+                buf.close()
+
+                if whit_progress_bar and telegram_msg is not None:
+                    progress = int(idx / total * 100)
+                    bar = "█" * (progress // 10) + "░" * (10 - (progress // 10))
+                    await telegram_msg.edit_text(
+                        text=f"⬇️ <b>Descargando contenido...</b>\n[{bar}] {progress}%",
+                        parse_mode="HTML"
+                    )
+            except httpx.RequestError as e:
+                logger.error(f"Error downloading image {idx} from {url}: {e}")
     return image_data
 
 # Usage example

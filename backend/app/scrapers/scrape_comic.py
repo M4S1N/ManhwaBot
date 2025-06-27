@@ -1,15 +1,17 @@
-import requests
+import httpx
 from bs4 import BeautifulSoup
 from app.models.chapter import ChapterModel
 import re
 import logging
 from app.core.logger import logger
+import asyncio
 
-def get_chapters_for_comic(comic: ChapterModel) -> list[ChapterModel]:
+async def get_chapters_for_comic(comic: ChapterModel) -> list[ChapterModel]:
     logger.info(f"Requesting comic page: {comic.name}")
-    response = requests.get(comic.url)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    async with httpx.AsyncClient(follow_redirects=True) as client:
+        response = await client.get(comic.url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
     chapters = []
     for link in soup.select("li.wp-manga-chapter a"):
         text = link.text.strip()
