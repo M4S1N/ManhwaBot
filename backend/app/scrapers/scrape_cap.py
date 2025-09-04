@@ -83,7 +83,7 @@ async def scrape_chapter_images(base_url: str, chapter_number: int, whit_progres
                     pil.size
                 buf = BytesIO()
 
-                await asyncio.to_thread(pil.save, buf, "JPEG", quality=90, optimize=True)
+                await asyncio.to_thread(pil.save, buf, "JPEG", quality=100, optimize=True)
                 buf.seek(0)
                 image_data.append(buf.getvalue())
                 buf.close()
